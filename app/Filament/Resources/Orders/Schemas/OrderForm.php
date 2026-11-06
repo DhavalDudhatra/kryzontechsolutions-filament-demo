@@ -172,11 +172,9 @@ class OrderForm
                                     fn (array $item): int => (int) ($item['quantity'] ?? 0)
                                 ),
 
-                                'total' => (float) collect($items)->sum(
-                                    fn (array $item): float => (
-                                        (float) (Product::withTrashed()->find($item['product_id'] ?? null)?->price ?? 0)
+                                'total' => collect($items)->sum(
+                                    fn (array $item): float => (float) (self::productsByIds([$item['product_id'] ?? null])[(int) ($item['product_id'] ?? 0)]?->price ?? 0)
                                         * (int) ($item['quantity'] ?? 0)
-                                    )
                                 ),
                             ])
                             ->columnSpanFull(),
@@ -291,6 +289,9 @@ class OrderForm
         ]);
     }
 
+    /** @var array<int, Product|null> */
+    private static array $productsById = [];
+
     /** @return Builder<Product> */
     private static function availableProducts(): Builder
     {
@@ -302,11 +303,46 @@ class OrderForm
         return "{$product->name} (Stock: {$product->stock_quantity})";
     }
 
+    private static function productById(mixed $id): ?Product
+    {
+        if (! is_numeric($id)) {
+            return null;
+        }
+
+        $key = (int) $id;
+        if (! array_key_exists($key, self::$productsById)) {
+            self::$productsById = array_replace(self::$productsById, self::productsByIds([$key]));
+        }
+
+        return self::$productsById[$key] ?? null;
+    }
+
+    /** @param array<int, mixed> $ids
+     * @return array<int, Product|null> */
+    private static function productsByIds(array $ids): array
+    {
+        $validIds = array_values(array_unique(array_filter(array_map(
+            static fn (mixed $id): int => (int) $id,
+            $ids,
+        ), static fn (int $id): bool => $id > 0)));
+
+        $missingIds = array_values(array_diff($validIds, array_keys(self::$productsById)));
+        if ($missingIds !== []) {
+            foreach ($missingIds as $id) {
+                self::$productsById[$id] = null;
+            }
+
+            foreach (Product::withTrashed()->whereIn('id', $missingIds)->get() as $product) {
+                self::$productsById[(int) $product->getKey()] = $product;
+            }
+        }
+
+        return array_intersect_key(self::$productsById, array_flip($validIds));
+    }
+
     private static function unitPrice(Get $get): float
     {
-        $product = Product::withTrashed()->find($get('product_id'));
-
-        return $product instanceof Product ? (float) $product->price : 0.0;
+        return (float) (self::productById($get('product_id'))?->price ?? 0);
     }
 
     private static function money(float $amount): string
@@ -316,7 +352,7 @@ class OrderForm
 
     private static function availableStock(Get $get): ?int
     {
-        $product = Product::withTrashed()->find($get('product_id'));
+        $product = self::productById($get('product_id'));
 
         if (! $product instanceof Product) {
             return null;

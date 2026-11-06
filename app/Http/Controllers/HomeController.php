@@ -8,7 +8,6 @@ use Inertia\Response;
 
 class HomeController extends Controller
 {
-    // User Homepage
     public function index(): Response
     {
         $products = Product::query()
@@ -21,7 +20,7 @@ class HomeController extends Controller
                 'id' => $product->id,
                 'name' => $product->name,
                 'price' => $product->price,
-                'description' => html_entity_decode(strip_tags($product->description)),
+                'description' => $product->description_text,
                 'image' => $product->image
                     ? asset('storage/'.$product->image)
                     : null,

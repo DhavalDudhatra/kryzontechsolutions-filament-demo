@@ -28,8 +28,9 @@ class OrderService
                 'customer_phone' => $data['customer_phone'] ?? null,
                 'shipping_address' => $data['shipping_address'],
                 'shipping_amount' => max(0, (float) ($data['shipping_amount'] ?? 0)),
-                'status' => $data['status'] ?? OrderStatus::Pending,
-                'payment_status' => $data['payment_status'] ?? PaymentStatus::Unpaid,
+                // Never trust caller-supplied status/payment state on create.
+                'status' => OrderStatus::Pending,
+                'payment_status' => PaymentStatus::Unpaid,
             ]);
 
             $this->syncItems($order, $data['items'] ?? []);
@@ -47,10 +48,31 @@ class OrderService
     // Update Order Code
     public function update(Order $order, array $data): Order
     {
-        return DB::transaction(function () use ($order, $data) {
+        $oldStatus = $order->status;
+
+        $order = DB::transaction(function () use ($order, $data) {
             $order = Order::query()
                 ->lockForUpdate()
                 ->findOrFail($order->id);
+
+            $newStatus = $data['status'] ?? $order->status;
+            $newStatus = $newStatus instanceof OrderStatus ? $newStatus : OrderStatus::tryFrom((string) $newStatus);
+
+            if ($newStatus === null) {
+                throw ValidationException::withMessages(['status' => 'Invalid order status.']);
+            }
+
+            if ($newStatus !== $order->status && ! $order->status->canTransitionTo($newStatus)) {
+                throw ValidationException::withMessages([
+                    'status' => "Cannot transition from {$order->status->value} to {$newStatus->value}.",
+                ]);
+            }
+
+            if ($order->status === OrderStatus::Cancelled && ! empty($data['items'])) {
+                throw ValidationException::withMessages([
+                    'items' => 'Cancelled orders cannot be edited.',
+                ]);
+            }
 
             $order->fill([
                 'customer_name' => $data['customer_name'] ?? $order->customer_name,
@@ -60,7 +82,7 @@ class OrderService
                 'shipping_amount' => isset($data['shipping_amount'])
                     ? max(0, (float) $data['shipping_amount'])
                     : $order->shipping_amount,
-                'status' => $data['status'] ?? $order->status,
+                'status' => $newStatus,
                 'payment_status' => $data['payment_status'] ?? $order->payment_status,
             ])->save();
 
@@ -76,6 +98,12 @@ class OrderService
 
             return $order->refresh()->load('items');
         });
+
+        if ($order->customer_email && $order->status !== $oldStatus) {
+            $this->sendStatusEmail($order);
+        }
+
+        return $order;
     }
 
     // previewSubtotal Order Code
@@ -219,29 +247,44 @@ class OrderService
     // Send Order Email Code
     private function sendOrderEmail(Order $order): void
     {
-        $this->emailService->sendTemplate(
-            'new_order_email',
+        $this->emailService->queueTemplate(
+            'order_confirmation',
             $order->customer_email,
-            [
-                'customer' => [
-                    'name' => $order->customer_name,
-                    'email' => $order->customer_email,
-                    'phone' => $order->customer_phone,
-                    'address' => $order->shipping_address,
-                ],
-                'order' => [
-                    'number' => $order->order_number,
-                    'status' => $order->status->getLabel(),
-                    'payment_status' => $order->payment_status->getLabel(),
-                    'subtotal' => number_format($order->subtotal, 2),
-                    'shipping' => number_format($order->shipping_amount, 2),
-                    'total' => number_format($order->total_amount, 2),
-                    'items' => $order->items
-                        ->map(fn (OrderItem $item) => "{$item->product_name} x {$item->quantity}")
-                        ->implode(', '),
-                ],
-            ]
+            $this->emailPayload($order)
         );
+    }
+
+    private function sendStatusEmail(Order $order): void
+    {
+        $this->emailService->queueTemplate(
+            'order_status_update',
+            $order->customer_email,
+            $this->emailPayload($order)
+        );
+    }
+
+    /** @return array<string, mixed> */
+    private function emailPayload(Order $order): array
+    {
+        return [
+            'customer' => [
+                'name' => $order->customer_name,
+                'email' => $order->customer_email,
+                'phone' => $order->customer_phone,
+                'address' => $order->shipping_address,
+            ],
+            'order' => [
+                'number' => $order->order_number,
+                'status' => $order->status->getLabel(),
+                'payment_status' => $order->payment_status->getLabel(),
+                'subtotal' => number_format($order->subtotal, 2),
+                'shipping' => number_format($order->shipping_amount, 2),
+                'total' => number_format($order->total_amount, 2),
+                'items' => $order->items
+                    ->map(fn (OrderItem $item) => "{$item->product_name} x {$item->quantity}")
+                    ->implode(', '),
+            ],
+        ];
     }
 
     // Generate Unique Order No

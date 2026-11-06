@@ -17,12 +17,12 @@ use Filament\Forms\Components\Toggle;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use Filament\Schemas\Components\Section;
+use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
+use Filament\Support\Icons\Heroicon;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
-use Filament\Support\Icons\Heroicon;
-
 
 /**
  * Admin settings page: company profile, branding, localization, contact details and two-factor auth.
@@ -191,7 +191,6 @@ class Settings extends Page
                 Select::make('date_format')
                     ->label('Date Format')
                     ->required()
-                    ->maxLength(30)
                     ->options([
                         'd M Y' => 'd M Y (01 Jan 2024)',
                         'm/d/Y' => 'm/d/Y (01/01/2024)',
@@ -205,12 +204,12 @@ class Settings extends Page
                 Select::make('date_time_format')
                     ->label('Date & Time Format')
                     ->required()
-                    ->maxLength(30)
                     ->options([
                         'd M Y, h:i A' => 'd M Y, h:i A (01 Jan 2024, 1:00 PM)',
                         'm/d/Y, h:i A' => 'm/d/Y, h:i A (01/01/2024, 1:00 PM)',
                         'Y-m-d h:i A' => 'Y-m-d h:i A (2024-01-01 1:00 PM)',
                         'd/m/Y, h:i A' => 'd/m/Y, h:i A (01/01/2024, 1:00 PM)',
+                        'd/m/Y H:i' => 'd/m/Y H:i (01/01/2024 13:00)',
                         'F j, Y, h:i A' => 'F j, Y, h:i A (January 1, 2024, 1:00 PM)',
                     ])
                     ->placeholder('d M Y, h:i A'),
@@ -240,6 +239,11 @@ class Settings extends Page
                     ->label('Enable Google Authenticator 2FA')
                     ->helperText('Require two-factor authentication for all admin users.')
                     ->live()
+                    ->inline(false),
+
+                Toggle::make(TwoFactorSettings::KeyEmailEnabled)
+                    ->label('Enable Email Code Verification')
+                    ->helperText('Allow a temporary code at the email address as a login step.')
                     ->inline(false),
 
                 // Recovery codes only make sense while 2FA is switched on.

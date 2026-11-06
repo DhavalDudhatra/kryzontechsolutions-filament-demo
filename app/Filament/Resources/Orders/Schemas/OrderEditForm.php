@@ -123,7 +123,7 @@ class OrderEditForm
                                                 $recordOrder = $record instanceof Order ? $record : null;
                                                 $existing = $recordOrder?->items->firstWhere('id', $get('id'));
                                                 $held = ($existing instanceof OrderItem && (int) $existing->product_id === (int) $product->id)
-                                                    ? (int) $existing->quantity
+                                                    ? (int) $existing->committed_quantity
                                                     : 0;
 
                                                 return (int) $product->stock_quantity + $held;

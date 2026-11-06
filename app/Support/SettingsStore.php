@@ -10,16 +10,26 @@ use Illuminate\Support\Facades\Schema;
 
 final class SettingsStore
 {
+    private static ?bool $tableExists = null;
+
     // Retrieve application settings
     /** @return array<string, string|null> */
     public static function all(): array
     {
-        if (! Schema::hasTable('settings')) {
+        if (! self::tableExists()) {
             return [];
         }
 
         return Cache::remember('app_settings', 300,
             static fn (): array => Setting::query()->pluck('value', 'key')->all(),
+        );
+    }
+
+    private static function tableExists(): bool
+    {
+        return self::$tableExists ??= Cache::remember(
+            'settings_table_exists', 3600,
+            static fn (): bool => Schema::hasTable('settings'),
         );
     }
 
@@ -34,5 +44,7 @@ final class SettingsStore
     public static function clearCache(): void
     {
         Cache::forget('app_settings');
+        Cache::forget('settings_table_exists');
+        self::$tableExists = null;
     }
 }
