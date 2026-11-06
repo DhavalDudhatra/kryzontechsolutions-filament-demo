@@ -11,6 +11,7 @@
         "inertiajs/inertia-laravel": "^3.0",
         "laravel/chisel": "^0.1.0",
         "laravel/framework": "^13.17",
+        "laravel/octane": "^2.23",
         "laravel/tinker": "^3.0",
         "laravel/wayfinder": "^0.1.21",
         "maatwebsite/excel": "^4.0",
@@ -59,6 +60,16 @@
         "dev": [
             "Composer\\Config::disableProcessTimeout",
             "@php artisan dev"
+        ],
+        "octane": [
+            "Composer\\Config::disableProcessTimeout",
+            "@php artisan octane:start --server=swoole --host=0.0.0.0 --port=8001 --workers=auto --task-workers=auto --max-requests=500"
+        ],
+        "octane:reload": [
+            "@php artisan octane:reload"
+        ],
+        "octane:stop": [
+            "@php artisan octane:stop"
         ],
         "lint": [
             "pint --parallel"
