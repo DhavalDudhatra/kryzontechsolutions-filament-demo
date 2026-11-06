@@ -5,7 +5,6 @@ namespace App\Filament\Widgets;
 use App\Enums\Permission;
 use App\Filament\Widgets\Concerns\FiltersDashboardData;
 use App\Filament\Widgets\Concerns\IsNotLazyLoaded;
-use App\Models\Product;
 use Filament\Widgets\ChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Illuminate\Support\Facades\Gate;
@@ -41,13 +40,9 @@ class ProductsStatusPieChart extends ChartWidget
             $this->pageFilters['endDate'] ?? null,
         );
 
-        $productCounts = Product::query()
-            ->whereBetween('created_at', [$start, $end])
-            ->selectRaw('SUM(CASE WHEN is_active = ? THEN 1 ELSE 0 END) as active_count', [true])
-            ->selectRaw('SUM(CASE WHEN is_active = ? THEN 1 ELSE 0 END) as inactive_count', [false])
-            ->first();
-        $active = (int) ($productCounts?->active_count ?? 0);
-        $inactive = (int) ($productCounts?->inactive_count ?? 0);
+        $snapshot = $this->dashboardSnapshot($start, $end);
+        $active = $snapshot['active'];
+        $inactive = $snapshot['inactive'];
 
         if ($active + $inactive === 0) {
             return $this->pie([''], [1], ['rgba(148, 163, 184, 0.35)']);

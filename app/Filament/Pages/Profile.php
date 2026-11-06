@@ -44,7 +44,7 @@ class Profile extends BaseEditProfile
                             ->maxLength(50)
                             ->autofocus(),
                         TextInput::make('email')
-                            ->label('Email')    
+                            ->label('Email')
                             ->email()
                             ->required()
                             ->maxLength(255)
@@ -114,7 +114,7 @@ class Profile extends BaseEditProfile
         $user = Filament::auth()->user();
 
         return Section::make()
-            ->heading('Two-factor authentication')
+            ->heading('Two-factor authentication (2FA)')
             ->icon(Heroicon::ShieldCheck)
             ->schema(collect(Filament::getMultiFactorAuthenticationProviders())
                 ->sort(fn (MultiFactorAuthenticationProvider $provider): int => $provider->isEnabled($user) ? 0 : 1)

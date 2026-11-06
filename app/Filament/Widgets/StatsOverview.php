@@ -5,8 +5,6 @@ namespace App\Filament\Widgets;
 use App\Enums\Permission;
 use App\Filament\Widgets\Concerns\FiltersDashboardData;
 use App\Filament\Widgets\Concerns\IsNotLazyLoaded;
-use App\Models\Product;
-use App\Models\User;
 use Filament\Support\Icons\Heroicon;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Filament\Widgets\StatsOverviewWidget;
@@ -38,16 +36,10 @@ class StatsOverview extends StatsOverviewWidget
             $this->pageFilters['endDate'] ?? null,
         );
 
-        $newUsers = User::query()->whereBetween('created_at', [$start, $end])->count();
-        $productCounts = Product::query()
-            ->selectRaw('COUNT(*) as total_products')
-            ->selectRaw(
-                'SUM(CASE WHEN created_at BETWEEN ? AND ? THEN 1 ELSE 0 END) as new_products',
-                [$start, $end],
-            )
-            ->first();
-        $newProducts = (int) ($productCounts?->new_products ?? 0);
-        $totalProducts = (int) ($productCounts?->total_products ?? 0);
+        $snapshot = $this->dashboardSnapshot($start, $end);
+        $newUsers = $snapshot['new_users'];
+        $totalProducts = $snapshot['total_products'];
+        $newProducts = $snapshot['new_products'];
 
         $periodDescription = filled($this->pageFilters['startDate'] ?? null) || filled($this->pageFilters['endDate'] ?? null)
             ? 'during the selected date range'

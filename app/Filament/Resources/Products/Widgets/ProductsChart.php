@@ -5,7 +5,6 @@ namespace App\Filament\Resources\Products\Widgets;
 use App\Enums\Permission;
 use App\Filament\Widgets\Concerns\FiltersDashboardData;
 use App\Filament\Widgets\Concerns\IsNotLazyLoaded;
-use App\Models\Product;
 use Filament\Widgets\ChartWidget;
 use Filament\Widgets\Concerns\InteractsWithPageFilters;
 use Illuminate\Support\Facades\Gate;
@@ -44,8 +43,7 @@ class ProductsChart extends ChartWidget
             $this->pageFilters['endDate'] ?? null,
         );
 
-        $counts = $this->monthlyCounts(Product::query()->whereBetween('created_at', [$start, $end]));
-        $series = $this->monthlySeries($counts, $start, $end);
+        $series = $this->monthlySeries($this->dashboardSnapshot($start, $end)['monthly'], $start, $end);
 
         return [
             'datasets' => [

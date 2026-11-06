@@ -23,9 +23,14 @@ class Dashboard extends BaseDashboard
 {
     use HasFiltersForm;
 
-    protected static ?string $title = 'Dashboard';
+    protected static ?string $title = 'Overview';
 
-    protected ?string $subheading = 'Monitor product activity and catalogue status at a glance.';
+    protected ?string $subheading = 'Welcome back — here is your shop today. Pick a date range below to compare products and new users.';
+
+    public function mount(): void
+    {
+        $this->filters = null;
+    }
 
     public function filtersForm(Schema $schema): Schema
     {

@@ -37,10 +37,9 @@ class AdminPanelProvider extends PanelProvider
 
         if (! app()->runningInConsole()) {
             $settings = SettingsStore::all();
-            $settingsModel = new Setting;
-            $lightLogoUrl = $settingsModel->lightLogoUrl();
-            $darkLogoUrl = $settingsModel->darkLogoUrl();
-            $faviconUrl = $settingsModel->faviconUrl() ?? $faviconUrl;
+            $lightLogoUrl = (new Setting)->lightLogoUrl();
+            $darkLogoUrl = (new Setting)->darkLogoUrl();
+            $faviconUrl = (new Setting)->faviconUrl() ?? $faviconUrl;
         }
 
         $primaryColor = $settings['primary_color'] ?? '#4f46e5';
@@ -75,7 +74,7 @@ class AdminPanelProvider extends PanelProvider
             // Always return to the listing page after create/save, like a classic admin panel.
             ->resourceCreatePageRedirect('index')
             ->resourceEditPageRedirect('index')
-            ->font('Inter')
+            // Font: keep Filament default (self-hosted Inter Variable, preloaded). Do not use ->font('Inter') — it loads from external CDN with no preload.
 
             // Theme colors
             ->colors([
