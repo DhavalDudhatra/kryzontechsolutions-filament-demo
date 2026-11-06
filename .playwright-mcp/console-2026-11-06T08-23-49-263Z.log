@@ -1,0 +1,6 @@
+[      94ms] [LOG] Browser detection: {name: Chrome, version: 156, min: 93} @ https://chat.qwen.ai/authorize?user_code=4QLUI843&client=qwen-code:51
+[      94ms] [LOG] Modern features support: true @ https://chat.qwen.ai/authorize?user_code=4QLUI843&client=qwen-code:51
+[     316ms] [LOG] Fri Nov 06 2026 13:53:49 GMT+0530 (India Standard Time) @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
+[     368ms] [LOG] %c [APLUS] -- APLUS INIT SUCCESS background:#3B82FE; padding: 4px; padding-right: 8px; border-radius: 4px; color: #fff; @ :1
+[    2440ms] [INFO] [adjust-sdk] 2026-11-06T08:23:51.701Z INFO:  Log level set to error @ https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.3.36/js/adjust-latest-BU5lCe19.js:0
+[    5804ms] [LOG] Fri Nov 06 2026 13:53:55 GMT+0530 (India Standard Time) @ https://assets.alicdn.com/g/AWSC/et/1.83.41/et_f.js:1

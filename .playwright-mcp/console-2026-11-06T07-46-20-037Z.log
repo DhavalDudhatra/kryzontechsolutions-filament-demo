@@ -1,0 +1,31 @@
+[    2878ms] [LOG] %cKimi.ai 
+  color: #1772F6;
+  font-weight: bold;
+  font-size: 3em;
+  padding: 10px 0;
+  text-shadow: 0.7px 1px 0 rgb(255 255 255 / 100%),
+    1.4px 2px 0 rgb(255 255 255 / 96%),
+    2.1px 3px 0 rgb(255 255 255 / 92%),
+    2.8px 4px 0 rgb(255 255 255 / 88%),
+    1px 1px 2px rgb(100 100 100 / 70%);
+ @ https://statics.moonshot.cn/kimi-web/assets/cd8a2c06b64e8-COdSr4rZ.js:21
+[    2878ms] [LOG] %c林深时见鹿，海深时见鲸，情深时见你🥰
+
+爬虫万里，不如 API 走起🥺
+
+一键接入 Kimi 大模型👇
+
+https://platform.kimi.com 
+  font-size: 1.2em;
+ @ https://statics.moonshot.cn/kimi-web/assets/cd8a2c06b64e8-COdSr4rZ.js:31
+[    3037ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    3037ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    3154ms] [LOG] /./ @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    3155ms] [LOG] JSHandle@node @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    3155ms] [LOG] function oQOQQ(){} @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    3156ms] [LOG] Fri Nov 06 2026 13:16:23 GMT+0530 (India Standard Time) @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    3861ms] [INFO] Autofocus processing was blocked because a document already has a focused element. @ https://www.kimi.com/code/authorize_device:0
+[    4973ms] [LOG] /./ @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    4973ms] [LOG] JSHandle@node @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    4973ms] [LOG] function oQOQQ(){} @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3
+[    4974ms] [LOG] Fri Nov 06 2026 13:16:25 GMT+0530 (India Standard Time) @ https://static.trustdecision.com/tdfp/cn/1adb3bba719793fb6874417a286e900d/fm.js?t=498320:3

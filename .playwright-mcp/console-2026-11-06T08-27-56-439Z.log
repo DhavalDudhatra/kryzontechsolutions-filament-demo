@@ -1,0 +1,8 @@
+[     911ms] No Login
+[     984ms] [INFO] [Fri, 06 Nov 2026 08:27:57 GMT] : [] : @azure/msal-browser@4.21.0 : Info - handleRedirectPromise called but there is no interaction in progress, returning null. @ https://nanobananaapi.ai/_next/static/chunks/pages/_app-1067505a6d75269a.js:0
+[    1020ms] No Login
+[    1023ms] [INFO] [Fri, 06 Nov 2026 08:27:57 GMT] : [] : @azure/msal-react@3.0.19 : Info - MsalProvider - handleRedirectPromise resolved, setting inProgress to 'none' @ https://nanobananaapi.ai/_next/static/chunks/pages/_app-1067505a6d75269a.js:0
+[    6955ms] [WARNING] [GSI_LOGGER]: google.accounts.id.initialize() is called multiple times. This could cause unexpected behavior and only the last initialized instance will be used. @ https://accounts.google.com/gsi/client:87
+[    6966ms] [WARNING] [GSI_LOGGER]: google.accounts.id.initialize() is called multiple times. This could cause unexpected behavior and only the last initialized instance will be used. @ https://accounts.google.com/gsi/client:87
+[    7214ms] [ERROR] Only one navigator.credentials.get request may be outstanding at one time. @ https://nanobananaapi.ai/:0
+[    7215ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NotAllowedError: Only one navigator.credentials.get request may be outstanding at one time. @ https://accounts.google.com/gsi/client:87

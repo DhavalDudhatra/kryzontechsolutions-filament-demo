@@ -1,0 +1,6 @@
+[    1452ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_google" @ https://auth-cdn.oaistatic.com/assets/app-runtime-DFDwRkcc.js:9
+[    1453ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_microsoft" @ https://auth-cdn.oaistatic.com/assets/app-runtime-DFDwRkcc.js:9
+[    1454ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_apple" @ https://auth-cdn.oaistatic.com/assets/app-runtime-DFDwRkcc.js:9
+[    1455ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_email" @ https://auth-cdn.oaistatic.com/assets/app-runtime-DFDwRkcc.js:9
+[    1456ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "login_web_existing_user_login_option_phone_number" @ https://auth-cdn.oaistatic.com/assets/app-runtime-DFDwRkcc.js:9
+[   10345ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:1455/favicon.ico:0

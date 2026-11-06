@@ -1,0 +1,30 @@
+[    2629ms] [LOG] [LocaleProvider] 初始化, initialLocale: undefined @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2630ms] [LOG] [LocaleProvider] 检测到的 locale: zh @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2654ms] [LOG] [Testimonials] 无数据，不渲染 @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7012-aa52d33ae958e749.js:0
+[    2681ms] [LOG] [Apollo API] 📡 请求 URL: https://www.minimax.cn/setting/get_app_settings @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2682ms] [LOG] [Apollo API] 📡 请求参数: {fe_setting_key: login_menu} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2683ms] [LOG] [Apollo API] 📡 请求 URL: https://www.minimax.cn/setting/get_app_settings @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2683ms] [LOG] [Apollo API] 📡 请求参数: {fe_setting_key: login_menu} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2692ms] [LOG] [Apollo API] 📡 请求 URL: https://www.minimax.cn/setting/get_app_settings @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2692ms] [LOG] [Apollo API] 📡 请求参数: {fe_setting_key: home_footer_navigation} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2693ms] [LOG] [Locale] 🔗 语言检测: zh (pathname: / ) @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    2694ms] [LOG] [LocaleProvider] SSR 已传入导航数据，跳过客户端获取 @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    3305ms] [LOG] [Apollo API] 📥 响应数据: {base_resp: Object, data: Object} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    3305ms] [LOG] [Apollo API] 📥 响应数据: {base_resp: Object, data: Object} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    3306ms] [LOG] [ApolloConfig] resolved {key: login_menu, source: apollo, locale: zh, runtime: client} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    3306ms] [LOG] [ApolloConfig] resolved {key: login_menu, source: apollo, locale: zh, runtime: client} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    3321ms] [LOG] [Apollo API] 📥 响应数据: {base_resp: Object, data: Object} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/5525-5c99756f7e0b058f.js:0
+[    3322ms] [LOG] [Footer] Apollo 数据: {qrcode: Array(4), zh: Array(4)} @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7012-aa52d33ae958e749.js:0
+[    5997ms] [LOG] [Track] Sensors SDK 导入成功 @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7417-53cbab02be21894e.js:0
+[    5997ms] [LOG] [Track] Sensors SDK 导入成功 @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7417-53cbab02be21894e.js:0
+[    5997ms] [LOG] [Track] Sensors SDK 导入成功 @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7417-53cbab02be21894e.js:0
+[    5997ms] [LOG] [Track] Sensors SDK 导入成功 @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7417-53cbab02be21894e.js:0
+[    6013ms] [LOG] [Track] Sensors SDK 初始化成功, env: prod @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7417-53cbab02be21894e.js:0
+[    6027ms] [LOG] [Track] Sensors SDK 初始化成功, env: prod @ https://filecdn.minimax.chat/open_platform_web/prod-zh-minimax-0.1.92/_next/static/chunks/7417-53cbab02be21894e.js:0
+[    7852ms] [WARNING] Failed to decode downloaded font: https://filecdn.minimax.chat/public/AlimamaFangYuanTiVF-Thin.woff2 @ https://www.minimax.cn/:0
+[    7856ms] [WARNING] OTS parsing error: Unable to instantiate font face from font data. @ https://www.minimax.cn/:0
+[   10312ms] [WARNING] Failed to decode downloaded font: https://filecdn.minimax.chat/public/AlimamaFangYuanTiVF-Thin.woff @ https://www.minimax.cn/:0
+[   10313ms] [WARNING] OTS parsing error: Unable to instantiate font face from font data. @ https://www.minimax.cn/:0
+[   16653ms] [WARNING] Failed to decode downloaded font: https://filecdn.minimax.chat/public/AlimamaFangYuanTiVF-Thin.ttf @ https://www.minimax.cn/:0
+[   16665ms] [WARNING] OTS parsing error: Unable to instantiate font face from font data. @ https://www.minimax.cn/:0
+[   17870ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://filecdn.minimax.chat/fonts/AlimamaFangYuanTiVF.woff2:0

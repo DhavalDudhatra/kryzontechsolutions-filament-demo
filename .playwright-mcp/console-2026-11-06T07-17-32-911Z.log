@@ -1,0 +1,382 @@
+[    8035ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[    8035ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[    8079ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[    8184ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  106790ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  106791ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  106796ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  106797ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  130435ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/antigravity/exchange:0
+[  142535ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/antigravity/exchange:0
+[  162680ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/antigravity/exchange:0
+[  173108ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  173111ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  173117ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  173120ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  196055ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  196057ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  196062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  196062ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  208742ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  208743ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  208749ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  208781ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  231163ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  231164ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  231165ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  231170ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  245282ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/gemini-cli/exchange:0
+[  251677ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  251678ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  251688ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  251691ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  257587ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/openrouter:0
+[  330228ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/openrouter:0
+[  357306ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  357307ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  357307ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  357343ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  364200ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/glm:0
+[  376097ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  376127ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  376128ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  376132ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  380751ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/nvidia:0
+[  696161ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  696162ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  696167ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  696174ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[  751056ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/antigravity/exchange:0
+[  775644ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/antigravity/exchange:0
+[  794403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[  794423ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[  794427ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[  794435ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1023589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1023589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1023608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1023609ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1154461ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1154472ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1154482ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1154489ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1173876ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1173877ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1173877ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1173878ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1225753ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1225758ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1225760ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1225764ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1245930ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/cline/exchange:0
+[ 1251526ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1251526ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1251531ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1251535ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1269865ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1269865ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1269875ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1269876ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1276145ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/glm:0
+[ 1296264ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1296267ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1296271ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1296281ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1304847ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/deepseek:0
+[ 1333089ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1333092ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1333098ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1333098ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1341401ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/openai:0
+[ 1389473ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) @ http://localhost:20128/dashboard/providers/openai:0
+[ 1423497ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1423500ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1423507ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1423515ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1439415ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/groq:0
+[ 1494781ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/kimi-coding/poll:0
+[ 1510379ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/kimi-coding/poll:0
+[ 1552936ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) @ http://localhost:20128/dashboard/providers/groq:0
+[ 1571167ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1571168ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1571169ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1571174ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1585238ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/perplexity:0
+[ 1592957ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1592958ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1592960ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1592965ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1660767ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/anthropic:0
+[ 1692430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1692433ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1692475ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1692476ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1742409ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1742411ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1742419ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1742420ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1893386ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1893387ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1893387ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1893388ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 1896713ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/anthropic:0
+[ 1916019ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 1916022ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 1916026ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 1916039ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 2024149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 2024149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 2024149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 2024158ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 2040999ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/kimi-coding/poll:0
+[ 2047536ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:20128/api/sync/cloud:0
+[ 2047537ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:20128/api/oauth/kimi-coding/poll:0
+[ 2047537ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ http://localhost:20128/api/token-health:0
+[ 2905295ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 2905296ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 2905299ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 2905300ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 2929085ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:20128/api/providers/c2fec232-91c0-4e1b-ac91-30b211bc4ac3/models:0
+[ 2934121ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 2934127ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 2934128ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 2934128ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 2944705ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/device-code:0
+[ 2946494ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/device-code:0
+[ 2971103ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/device-code:0
+[ 2972122ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/device-code:0
+[ 2994492ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3000692ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3008365ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3014356ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3020620ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3026111ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3031718ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3037280ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3042695ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3048109ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3053575ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3059022ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3064422ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3069850ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3075234ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3079470ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3079471ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3079471ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3079472ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3080647ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3086033ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3091426ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3096869ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3102267ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3107633ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3113023ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3116977ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3116995ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3117001ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3117007ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3118459ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3123999ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3129288ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/gemini-cli/exchange:0
+[ 3129429ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3134260ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3134271ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3134272ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3134272ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3134846ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3140235ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3142843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3143209ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3143239ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/nanobanana:0
+[ 3145644ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3147380ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) @ http://localhost:20128/dashboard/providers/nanobanana:0
+[ 3151064ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3153884ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3153885ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3153885ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3153886ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3156445ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3161868ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3167263ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3172663ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3178066ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3183475ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3188866ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3194307ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3199726ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3205142ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3210538ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3216021ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3217596ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/mistral:0
+[ 3221403ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3227109ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3232500ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3234862ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3234869ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3234870ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3234870ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3237913ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3243319ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3248799ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3254245ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3259853ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3265263ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3270649ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3276065ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3281433ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3286841ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3292213ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3297605ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3303023ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3308459ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3313863ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3319311ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3392709ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/deepseek:0
+[ 3408840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3408840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3408840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3408847ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3421764ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers:0
+[ 3425162ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers:0
+[ 3468608ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3468609ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3468609ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3468610ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3714432ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/cerebras:0
+[ 3791037ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3791038ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3791043ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3791047ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3802999ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/minimax:0
+[ 3837966ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3837967ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3837967ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3837968ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3853183ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3858694ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3864985ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3870589ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3877301ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3882855ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3888373ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3893897ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3899943ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3906693ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3915889ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3923705ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3933163ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3939168ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3947658ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3953192ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3958628ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3964327ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3969834ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3975401ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3982584ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3983462ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3986847ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3986860ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3986861ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3986862ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3988447ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3988744ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3994103ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3994467ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 3998990ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 3998990ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 3998990ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 3998995ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 3999715ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4000215ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4005356ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4005773ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4010827ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4011258ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4016355ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4017076ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4027811ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4029379ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4033334ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4034606ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4038589ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4039904ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4043811ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4045154ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4049062ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4050406ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4054347ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4055721ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4060772ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4065275ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4070233ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4070456ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4075768ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4076335ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4081271ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4081518ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4085277ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 4085285ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 4085285ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 4085286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 4086795ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4087180ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4092320ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4092672ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4095765ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/together:0
+[ 4097943ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4098192ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4107313ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4108351ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4112828ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4113683ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4118285ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4119114ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4123770ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4124347ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4129203ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4129485ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4136763ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4138995ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4142292ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4144156ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4147457ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4150618ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4154333ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4156115ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4161093ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4162636ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4167769ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4172368ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4175839ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4177594ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4181145ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4183139ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4186346ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4188341ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4191593ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4193517ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4197490ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4198685ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4203511ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4204432ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4208997ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4209608ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4210168ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[ 4210182ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[ 4210185ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[ 4210186ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 4214466ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4214796ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4219702ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 4219948ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4220061ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[ 4220101ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/providers/nanobanana:0
+[ 4220280ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4225872ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4231340ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4236837ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4242364ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4247865ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4253455ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4258914ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0
+[ 4264372ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/oauth/qwen/poll:0

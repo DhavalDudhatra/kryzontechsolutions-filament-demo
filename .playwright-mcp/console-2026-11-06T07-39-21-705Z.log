@@ -1,0 +1,8 @@
+[     591ms] [INFO] %c[__httpRequest]:%c httpRequest GET https://chat.deepseek.com/api/v0/ip_to_country_code color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[     678ms] [INFO] %c[__pageVisit]:%c 访问页面 [/en/] [0]：588ms color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[     679ms] [INFO] %c[__tti]:%c /en/ TTI 上报：590ms color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[    1088ms] [INFO] %c[__httpResponse]:%c httpResponse GET https://chat.deepseek.com/api/v0/ip_to_country_code, 494ms, reason: none color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[    1092ms] [INFO] %c[__getIpFromApiOk]:%c 通过 API 获取地区信息，IP：47.11.105.53，Region：IN color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[    2202ms] [INFO] %c[header_get_app_hover]:%c 获取 APP hover color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[    4089ms] [INFO] %c[button_click]:%c button click: hero_chat_with_deepseek color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0
+[   20636ms] [INFO] %c[__pageVisibilityChange]:%c 页面隐藏 color: blue;  {payload: Object}  @ https://deepseek.com/_next/static/chunks/6872-09ee2a9bce847688.js:0

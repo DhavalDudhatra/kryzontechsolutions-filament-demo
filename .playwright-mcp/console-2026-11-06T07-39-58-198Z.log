@@ -1,0 +1,78 @@
+[    1265ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "openai_curated_plugin_admin" @ https://platform.openai.com/static/index-BMMc6kKG.js:270
+[    1285ms] [LOG] %c
+           .d88888b.             
+         .8P"     "9bd888b.      
+        .8P     .d8P””'`”988.   
+     .8888   .d8P"    ,     98.  
+   .8P" 88   88"   .d98b.    88  
+  .8P   88   88.d8P".  "98b. 88
+  88    88   88”   `"8b.    "98.  
+  88.   88   89      88"8b.   88 
+   88    "98.89      88  88   "88
+    “8b.    “98b.  .d8B  88    88
+    88 "98b.   8d8P" BB  88   d8"
+    88    d98bP88   .8P  88 .d8" 
+    "8b         .d8P"    888"   
+     "88b..   .d8P"     d8"      
+       "9888P98b.     .d8"       
+               "988888P 
+
+
+  Solve impossible problems
+  openai.com/careers
+ font-family:monospace;  @ https://platform.openai.com/static/index-BMMc6kKG.js:270
+[    9152ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "openai_curated_plugin_admin" @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[    9176ms] [LOG] %c
+           .d88888b.             
+         .8P"     "9bd888b.      
+        .8P     .d8P””'`”988.   
+     .8888   .d8P"    ,     98.  
+   .8P" 88   88"   .d98b.    88  
+  .8P   88   88.d8P".  "98b. 88
+  88    88   88”   `"8b.    "98.  
+  88.   88   89      88"8b.   88 
+   88    "98.89      88  88   "88
+    “8b.    “98b.  .d8B  88    88
+    88 "98b.   8d8P" BB  88   d8"
+    88    d98bP88   .8P  88 .d8" 
+    "8b         .d8P"    888"   
+     "88b..   .d8P"     d8"      
+       "9888P98b.     .d8"       
+               "988888P 
+
+
+  Solve impossible problems
+  openai.com/careers
+ font-family:monospace;  @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   10106ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "openai_curated_plugin_admin" @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   10306ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "userID" for Dynamic config "openai_curated_plugin_admin" @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12219ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12221ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12223ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12452ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12454ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12456ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   12551ms] [WARNING]   WARN  [Statsig] SDK initialization has not completed. Reason: Loading:Unrecognized @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   24904ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   42496ms] [ERROR] Connecting to 'https://api.segment.io/v1/m' violates the following Content Security Policy directive: "connect-src 'self' blob: https://api.openai.com https://cdn.openai.com https://cdn.platform.openai.com https://us.api.openai.com https://eu.api.openai.com https://au.api.openai.com https://jp.api.openai.com https://sg.api.openai.com https://in.api.openai.com https://ca.api.openai.com https://kr.api.openai.com https://ae.api.openai.com https://gb.api.openai.com https://api.unified-3s.api.openai.org https://api.unified-0s.api.openai.org https://api.openai.org https://api.openai-staging.com wss://api.openai.com wss://eu.api.openai.com wss://us.api.openai.com wss://au.api.openai.com wss://jp.api.openai.com wss://sg.api.openai.com wss://in.api.openai.com wss://ca.api.openai.com wss://kr.api.openai.com wss://ae.api.openai.com wss://gb.api.openai.com wss://api.openai.org wss://api.openai-staging.com wss://ws.chatgpt.com wss://ws.chatgpt-staging.com https://auth0.openai.com https://auth.openai.com https://chatgpt.com https://504-SWE-347.mktoweb.com https://browser-intake-datadoghq.com https://api.stripe.com https://*.intercom.io wss://*.intercom.io https://uploads.intercomcdn.com https://uploads.intercomusercontent.com https://*.sentry.io https://api.hsforms.com https://*.algolia.net https://*.algolia.io https://*.oaiusercontent.com https://status.openai.com https://chatgpt.com https://featureassets.org https://prodregistryv2.org https://ab.chatgpt.com https://dot-control-plane.gateway.unified-1.api.openai.com". The action has been blocked. @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   42499ms] [ERROR] Fetch API cannot load https://api.segment.io/v1/m. Refused to connect because it violates the document's Content Security Policy. @ https://platform.openai.com/static/index-CLKNv3Dt.js:270
+[   42511ms] [ERROR] Error sending segment performance metrics TypeError: Failed to fetch
+    at https://platform.openai.com/static/index-CLKNv3Dt.js:271:580
+    at c (https://platform.openai.com/static/index-CLKNv3Dt.js:245:467)
+    at oe (https://platform.openai.com/static/xRRPTEGgR7.js:2:18469)
+    at n.<anonymous> (https://platform.openai.com/static/xRRPTEGgR7.js:2:20016)
+    at c (https://platform.openai.com/static/index-CLKNv3Dt.js:207:17418)
+    at Object.next (https://platform.openai.com/static/index-CLKNv3Dt.js:207:16701)
+    at https://platform.openai.com/static/index-CLKNv3Dt.js:207:16354
+    at new Promise (<anonymous>)
+    at pt (https://platform.openai.com/static/index-CLKNv3Dt.js:207:16151)
+    at n.send (https://platform.openai.com/static/xRRPTEGgR7.js:2:19814)
+    at n.<anonymous> (https://platform.openai.com/static/xRRPTEGgR7.js:2:19697)
+    at c (https://platform.openai.com/static/index-CLKNv3Dt.js:207:17418)
+    at Object.next (https://platform.openai.com/static/index-CLKNv3Dt.js:207:16701)
+    at https://platform.openai.com/static/index-CLKNv3Dt.js:207:16354
+    at new Promise (<anonymous>)
+    at pt (https://platform.openai.com/static/index-CLKNv3Dt.js:207:16151)
+    at n.flush (https://platform.openai.com/static/xRRPTEGgR7.js:2:19565)
+    at l (https://platform.openai.com/static/xRRPTEGgR7.js:2:19229)
+    at i (https://platform.openai.com/static/index-CLKNv3Dt.js:278:5106) @ https://platform.openai.com/static/index-CLKNv3Dt.js:270

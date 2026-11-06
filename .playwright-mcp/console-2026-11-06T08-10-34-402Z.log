@@ -1,0 +1,57 @@
+[      -3ms] [ERROR] The Content-Security-Policy directive 'frame-ancestors' contains the keyword 'none' alongside with other source expressions. The keyword 'none' must be the only source expression in the directive value, otherwise it is ignored. @ https://v2.auth.mistral.ai/login?flow=64418d3b-4744-43d7-93d3-794524e3fc31:0
+[    3817ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://auth.mistral.ai/self-service/login?flow=64418d3b-4744-43d7-93d3-794524e3fc31:0
+[    8485ms] [LOG] 
+                                                    ...::-=-.
+                                          ..:::-----------*%%%%*-:
+                                   ::---------------------*%%%%%%%%#
+                     ...:::-:      -----------------------*%%%%%%%%#
+           ...:::----------*%%%%=:. .-----------------------*%%%%%%%%#
+    ::---------------------=%%%%%%%%%=------------------------*%%%%%%%%#
+    ------------------------#%%%%%%%%*------------------------*%%%%%%%%#
+    ========================+%%%%%%%%+========================*%%%%%%%%#
+    =========================%%%%%%%%=========================*%%%%%%%%#
+    =========================*%%%%#=========================*%%%%%%%%#
+    ==========================%%%%+=========================*%%%%%%%%#
+    ==========================#%==========================*%%%%%%%%#
+    ==========================+#==========*===============*%%%%%%%%#
+    ===========================+=========**===============*%%%%%%%%#
+    +++++++++++++++*=++++++++++=+++++++++#*+++++++++++++++#%%%%%%%%#
+    +++++++++++++++**++++++++++++++++++++%*+++++++++++++++#%%%%%%%%#
+    +++++++++++++++*#+++++++++++++++++++*%*+++++++++++++++#%%%%%%%%#
+    +++++++++++++++*%+++++++++++++++++++#%*+++++++++++++++#%%%%%%%%#
+    +++++++++++++++*%#++++++++++++++++++%%%%*+++++++++++++++#%%%%%%%%%
+    +++++++++++++++*%%%%+++++++++++++++++*%%%%*+++++++++++++++#%%%%%%%%%
+    +++++++++++++++#%%%%*++++++++++++++++#%%%%*+++++++++++++++#%%%%%%%%%
+    +**************#%%%%%+***************%%%%%****************#%%%%%%%%%
+    ***************#%%%%%***************#%%%%%#***************#%%%%%%%%%
+    ***************#%%%%%#**************%%%%%%%%#***************#%%%%%%%%%
+    ***************#%%%%%%%%**************%%%%%%%%#***************#%%%%%%%%%
+    ***************#%%%%%%%%#************#%%%%%%%%#********####%%%%%%%%%%%%%%%%%
+    ***************#%%%%%%%%%***********+%%%%%%%%%%%%##%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ***************#%%%%%%%%%*****#####%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ***************#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ******####%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=+%%%%%%%%%%%%%
+     -*%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*  ..=#%#*
+         -*+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%. -##%%%%%%%%%%%%%%%%%##*-
+            :==%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     :++=-:..
+               .::#%%%%%%%%%%%%%%%%%%%%%%%%#*++=-
+                    :**+==-:.
+
+
+    Frontier AI. In Your Hands.
+    WE'RE HIRING: https://mistral.ai/en/careers
+       @ https://admin.mistral.ai/_next/static/chunks/430leo38ngo30.js:14
+[   19545ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[   28452ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[   33921ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[   43064ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[   59497ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[   72005ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  104789ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  132634ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  150027ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  195307ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  240582ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  253458ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  285859ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0
+[  314057ms] [WARNING] The resource https://admin.mistral.ai/_next/static/chunks/0jxpfgxoez5je.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://admin.mistral.ai/organization/api-keys:0

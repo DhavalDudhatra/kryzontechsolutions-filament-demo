@@ -1,0 +1,11 @@
+[    7067ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/onboarding:0
+[    7068ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:20128/dashboard/onboarding:0
+[   29131ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[   29134ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[   29136ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[   29140ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0
+[   37256ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:20128/api/sync/cloud:0
+[   46628ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/hyperbolic.png:0
+[   46630ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/deepgram.png:0
+[   46633ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/assemblyai.png:0
+[   46646ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:20128/providers/nanobanana.png:0

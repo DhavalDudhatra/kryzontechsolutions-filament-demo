@@ -1,0 +1,1220 @@
+@import "../../../../vendor/filament/filament/resources/css/theme.css";
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+/* Shared theme tokens for Filament controls and upload components. */
+:root {
+    --fu-accent: var(--color-primary-500, var(--primary-500, #6366f1));
+    --fu-accent-strong: var(--color-primary-600, var(--primary-600, #4f46e5));
+    --fu-surface: #fff;
+    --fu-zone: #f9fafb;
+    --fu-zone-hover: color-mix(in srgb, var(--fu-accent) 6%, #fff);
+    --fu-text: #111827;
+    --fu-text-muted: #6b7280;
+    --fu-border: #e5e7eb;
+    --fu-border-dashed: #d1d5db;
+    --fu-glow: color-mix(in srgb, var(--fu-accent) 16%, transparent);
+    --fu-radius: 0.875rem;
+    --ui-radius-card: var(--fu-radius);
+    --ui-radius-control: 0.5rem;
+    --ui-ring: rgb(17 24 39 / 7%);
+    --ui-shadow-xs: 0 1px 2px rgb(0 0 0 / 5%);
+    --ui-shadow-card: 0 1px 3px rgb(0 0 0 / 5%), 0 4px 12px rgb(0 0 0 / 4%);
+    --ui-shadow-pop: 0 8px 24px rgb(0 0 0 / 12%);
+}
+
+.dark {
+    --fu-accent: var(--color-primary-400, var(--primary-400, #818cf8));
+    --fu-accent-strong: var(--color-primary-300, var(--primary-300, #a5b4fc));
+    --fu-surface: rgb(255 255 255 / 6%);
+    --fu-zone: rgb(255 255 255 / 3%);
+    --fu-zone-hover: color-mix(in srgb, var(--fu-accent) 12%, transparent);
+    --fu-text: #f9fafb;
+    --fu-text-muted: #9ca3af;
+    --fu-border: rgb(255 255 255 / 10%);
+    --fu-border-dashed: rgb(255 255 255 / 18%);
+    --ui-ring: rgb(255 255 255 / 10%);
+    --ui-shadow-xs: none;
+    --ui-shadow-card: none;
+    --ui-shadow-pop: 0 10px 30px rgb(0 0 0 / 35%);
+}
+
+/* Base selection treatment. */
+::selection {
+    background: var(--fu-glow);
+}
+
+/* ================================================================
+   SIDEBAR
+================================================================ */
+.fi-sidebar {
+    border-right: 1px solid rgb(229 231 235 / 80%);
+    background-color: #fff;
+
+    .dark & {
+        border-right-color: rgb(255 255 255 / 8%);
+        background-color: #111827;
+    }
+}
+
+/* Sidebar logo image. */
+.fi-sidebar-header .fi-logo {
+    height: 3.5rem !important;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 0;
+}
+
+/* Keep navigation groups visually compact. */
+.fi-sidebar-nav,
+.fi-sidebar-group {
+    @apply gap-y-1;
+}
+
+/* Group labels provide hierarchy without competing with links. */
+.fi-sidebar-group-label {
+    @apply text-[11px] font-semibold uppercase tracking-wider;
+    @apply text-gray-400 dark:text-gray-500;
+}
+
+/* Navigation item spacing, typography, and hover state. */
+.fi-sidebar-item-btn {
+    @apply relative mx-2 rounded-lg px-3 py-2;
+    @apply text-sm font-medium text-gray-600;
+    @apply transition-colors duration-150;
+    @apply hover:bg-gray-100 hover:text-gray-950;
+    @apply dark:text-gray-300 dark:hover:bg-white/6 dark:hover:text-white;
+}
+
+/* Visible keyboard focus indicator. */
+.fi-sidebar-item-btn:focus-visible {
+    outline: 2px solid var(--fu-accent);
+    outline-offset: 2px;
+}
+
+/* Keep icons secondary until the item is active or hovered. */
+.fi-sidebar-item-icon {
+    @apply text-gray-400 transition-colors duration-150 dark:text-gray-500;
+}
+
+/* Active navigation item state. */
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn {
+    @apply bg-primary-50 font-semibold text-primary-700;
+    @apply dark:bg-primary-500/10 dark:text-primary-400;
+}
+
+/* Active item indicator. */
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn::before {
+    content: "";
+    position: absolute;
+    inset-block: 50% auto;
+    inset-inline-start: 0;
+    width: 3px;
+    height: 20px;
+    border-radius: 0 4px 4px 0;
+    background-color: var(--fu-accent-strong);
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Active and hovered icon state. */
+.fi-sidebar-item.fi-active .fi-sidebar-item-icon,
+.fi-sidebar-item-btn:hover .fi-sidebar-item-icon {
+    @apply text-primary-600 dark:text-primary-400;
+}
+
+/* Indent nested navigation items. */
+.fi-sidebar-sub-group-items,
+.fi-sidebar-item-children {
+    @apply ml-3 border-l border-gray-200 pl-2;
+    @apply dark:border-white/8;
+}
+
+/* Center items when the desktop sidebar is collapsed. */
+.fi-sidebar:not(.fi-sidebar-open) .fi-sidebar-item-btn {
+    @apply mx-0 justify-center rounded-lg px-2;
+}
+
+/* ================================================================
+   TOPBAR AND PAGE HEADER
+================================================================ */
+.fi-topbar {
+    @apply border-b border-gray-200/80 bg-white/80 backdrop-blur;
+    @apply dark:border-white/10 dark:bg-gray-900/80;
+}
+
+/* Section headings share the project heading type scale. */
+.fi-section-header-heading {
+    @apply text-lg font-semibold text-gray-900 dark:text-white;
+}
+
+/* Page-level vertical rhythm. */
+.fi-page {
+    gap: 1.5rem;
+}
+
+/* Page heading emphasis. */
+.fi-header-heading {
+    @apply font-bold tracking-tight;
+}
+
+/* ================================================================
+   SECTIONS, DASHBOARD AND WIDGETS
+================================================================ */
+.fi-page .fi-section {
+    border-radius: var(--ui-radius-card);
+    box-shadow:
+        0 0 0 1px var(--ui-ring),
+        var(--ui-shadow-card);
+}
+
+.fi-section .fi-section {
+    box-shadow: none;
+    border-radius: 0.75rem;
+}
+
+.fi-page .fi-section-header {
+    @apply pb-4;
+}
+
+.fi-fo-field-label {
+    @apply font-semibold;
+}
+
+/* Email template rich editor. */
+.email-template-editor {
+    width: 100%;
+    border: 1px solid var(--fu-border);
+    border-radius: var(--ui-radius-control);
+    background: var(--fu-surface);
+    color: var(--fu-text);
+    box-shadow: none;
+}
+
+.email-template-editor:focus-within {
+    border-color: var(--fu-accent);
+    box-shadow: 0 0 0 3px var(--fu-glow);
+}
+
+.email-template-editor .fi-fo-rich-editor-toolbar {
+    flex-wrap: wrap;
+    border-bottom-color: var(--fu-border);
+    background: var(--fu-surface);
+}
+
+.email-template-editor .fi-fo-rich-editor-content {
+    min-height: 20rem;
+    padding: 1rem 1.25rem;
+}
+
+.email-template-editor .fi-fo-rich-editor-content .tiptap.ProseMirror {
+    line-height: 1.6;
+}
+
+.email-template-editor .fi-fo-rich-editor-content .tiptap.ProseMirror:focus,
+.email-template-editor
+    .fi-fo-rich-editor-content
+    .tiptap.ProseMirror:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Dashboard stat cards: 1 column on phones, 2 on small tablets, 3 on desktop. */
+.fi-wi-stats-overview-stats-ctn {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+    .fi-wi-stats-overview-stats-ctn {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .fi-wi-stats-overview-stats-ctn {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.fi-wi-stats-overview-stat {
+    min-width: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0.75rem 0.875rem;
+    border-radius: 0.75rem;
+    background-color: var(--fu-surface);
+    box-shadow:
+        0 0 0 1px var(--ui-ring),
+        var(--ui-shadow-card);
+}
+
+/* Thin accent strip anchors each card without adding an icon. */
+.fi-wi-stats-overview-stat::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 3px;
+    background: linear-gradient(90deg, var(--fu-accent), transparent 70%);
+    opacity: 0.75;
+}
+
+.fi-wi-stats-overview-stat-content {
+    row-gap: 0.25rem;
+}
+
+.fi-wi-stats-overview-stat-label {
+    @apply text-lg font-semibold text-gray-950 dark:text-white;
+}
+
+.fi-wi-stats-overview-stat-value {
+    @apply text-2xl font-bold text-gray-950 dark:text-white;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+}
+
+.fi-wi-stats-overview-stat-description {
+    @apply truncate text-xs font-medium text-gray-500 dark:text-gray-400;
+}
+
+.fi-wi-stats-overview-stat-chart {
+    opacity: 0.85;
+}
+
+/* Prevent chart content from overflowing its widget. */
+.fi-wi-chart .fi-section {
+    overflow: hidden;
+}
+
+.fi-wi-chart canvas {
+    max-width: 100%;
+}
+
+.fi-wi-stats-overview .fi-section,
+.fi-wi-stats-overview .fi-section-content-ctn {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ================================================================
+   TABLES
+================================================================ */
+.fi-ta-ctn {
+    overflow: hidden;
+    border-radius: var(--ui-radius-card);
+    box-shadow:
+        0 0 0 1px var(--ui-ring),
+        var(--ui-shadow-card);
+}
+
+.fi-ta-header-cell {
+    @apply bg-gray-50/70 text-xs font-semibold uppercase tracking-wide text-gray-500;
+    @apply dark:bg-white/3 dark:text-gray-400;
+}
+
+.fi-ta-row {
+    @apply transition-colors duration-150;
+}
+
+.fi-ta-row:hover {
+    @apply bg-gray-50/80 dark:bg-white/4;
+}
+
+/* Reduce table toggle controls to match row density. */
+.fi-ta-toggle .fi-toggle {
+    transform: scale(0.7);
+    transform-origin: center;
+}
+
+/* ================================================================
+   BUTTONS, INPUTS, BADGES, OVERLAYS
+================================================================ */
+.fi-btn {
+    border-radius: var(--ui-radius-control);
+    @apply font-medium transition-colors duration-150;
+}
+
+/* Shared form-control radius; the focus ring stays on the wrapper only. */
+.fi-input-wrp {
+    border-radius: var(--ui-radius-control);
+    @apply transition-shadow duration-150;
+}
+
+/* Fix: remove the inner square outline that doubled the wrapper ring
+   (search box, text inputs, selects, textareas). */
+.fi-input-wrp :is(input, select, textarea) {
+    border-radius: inherit;
+}
+
+.fi-input-wrp :is(input, select, textarea):is(:focus, :focus-visible) {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.fi-badge {
+    @apply rounded-md font-medium;
+}
+
+.fi-modal-window {
+    border-radius: var(--ui-radius-card);
+    box-shadow: var(--ui-shadow-pop);
+}
+
+.fi-tabs {
+    @apply rounded-xl shadow-sm;
+}
+
+/* Floating panels. */
+.fi-dropdown-panel {
+    border-radius: var(--ui-radius-control);
+    box-shadow:
+        0 0 0 1px var(--ui-ring),
+        var(--ui-shadow-pop);
+}
+
+/* ================================================================
+   ENHANCEMENTS (polish on top of the existing design)
+================================================================ */
+:root {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db transparent;
+}
+
+.dark {
+    scrollbar-color: #4b5563 transparent;
+}
+
+/* Sections: slightly tighter header and form rhythm. */
+.fi-page .fi-section-header {
+    padding-block: 0.875rem;
+}
+
+.fi-fo-field {
+    row-gap: 0.375rem;
+}
+
+/* Keep dashboard date-filter labels and actions aligned without changing the form behavior. */
+.fi-page .fi-section:has(.fi-fo-date-time-picker):has(.fi-sc-actions) {
+    .fi-fo-field,
+    .fi-fo-date-time-picker {
+        min-width: 0;
+    }
+
+    .fi-fo-date-time-picker-trigger {
+        width: 100%;
+    }
+
+    /* The actions cell fills the row, so bottom-align its 40px control row;
+       the buttons then center vertically with the date inputs. */
+    .fi-sc-actions {
+        justify-content: flex-end;
+    }
+
+    .fi-sc-actions > .fi-ac {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.625rem;
+        min-height: 2.5rem;
+    }
+
+    .fi-sc-actions .fi-btn {
+        white-space: nowrap;
+    }
+}
+
+/* Match the 20px filter glyph to the 28px section-heading line. */
+.fi-page .fi-section:has(.fi-fo-date-time-picker) > .fi-section-header > .fi-icon.fi-size-md {
+    margin-block-start: 0.25rem;
+}
+
+@media (max-width: 639px) {
+    .fi-page .fi-section:has(.fi-fo-date-time-picker):has(.fi-sc-actions) {
+        .fi-sc-actions > .fi-ac {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .fi-sc-actions .fi-btn {
+            width: 100%;
+            justify-content: center;
+            min-height: 2.5rem;
+        }
+    }
+}
+
+/* Stat cards: gentle lift on hover. */
+.fi-wi-stats-overview-stat {
+    transition:
+        box-shadow 180ms ease,
+        transform 180ms ease;
+}
+
+.fi-wi-stats-overview-stat:hover {
+    transform: translateY(-1px);
+    box-shadow:
+        0 0 0 1px var(--ui-ring),
+        var(--ui-shadow-pop);
+}
+
+/* Tables: a little more compact, cleaner header spacing. */
+.fi-ta-header-cell {
+    padding-block: 0.625rem;
+}
+
+.fi-ta-cell :is(.fi-ta-text, .fi-ta-icon, .fi-ta-image, .fi-ta-color) {
+    padding-block: 0.625rem;
+}
+
+/* Buttons: press feedback and accent focus ring. */
+.fi-btn:active {
+    transform: translateY(1px);
+}
+
+.fi-btn:focus-visible {
+    outline: 2px solid var(--fu-accent);
+    outline-offset: 2px;
+}
+
+/* Toast notifications match the dropdown surface. */
+.fi-no-notification {
+    border-radius: var(--ui-radius-control);
+    box-shadow:
+        0 0 0 1px var(--ui-ring),
+        var(--ui-shadow-pop);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fi-wi-stats-overview-stat,
+    .fi-btn {
+        transition: none !important;
+        transform: none !important;
+    }
+}
+
+/* ================================================================
+   FILE UPLOAD (FILEPOND)
+================================================================ */
+
+/* ---------- Container ---------- */
+.fi-fo-file-upload .filepond--root {
+    font-family: inherit;
+    margin-bottom: 0;
+    box-shadow: none;
+}
+
+/* ---------- Drop zone ---------- */
+.fi-fo-file-upload .filepond--panel-root {
+    background: var(--fu-zone);
+    border: 1px solid var(--fu-border);
+    transition:
+        border-color 200ms ease,
+        background-color 200ms ease,
+        box-shadow 200ms ease;
+}
+
+/* Hover state for an actionable drop zone. */
+.fi-fo-file-upload .filepond--root:hover .filepond--panel-root {
+    background: var(--fu-zone-hover);
+    border-color: var(--fu-accent);
+}
+
+/* Drag-over state for an active drop target. */
+.fi-fo-file-upload
+    .filepond--root[data-hopper-state="drag-over"]
+    .filepond--panel-root {
+    background: var(--fu-zone-hover);
+    border-color: var(--fu-accent);
+    border-style: solid;
+    box-shadow: 0 0 0 4px var(--fu-glow);
+}
+
+/* Keyboard focus */
+.fi-fo-file-upload .filepond--root:focus-within .filepond--panel-root {
+    border-color: var(--fu-accent);
+    box-shadow: 0 0 0 4px var(--fu-glow);
+}
+
+/* Disabled */
+.fi-fo-file-upload .filepond--root[data-disabled="true"],
+.fi-fo-file-upload .filepond--root[disabled] {
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+/* ---------- Drop label (icon + text) ---------- */
+.fi-fo-file-upload .filepond--drop-label {
+    min-height: 9.5rem;
+    color: var(--fu-text-muted);
+    font-size: 0.875rem;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.fi-fo-file-upload .filepond--drop-label label {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Icon bubble (cloud upload) */
+.fi-fo-file-upload .filepond--drop-label label::before {
+    content: "";
+    flex: 0 0 2.75rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-inline: calc(50% - 1.375rem);
+    margin-bottom: 0.375rem;
+    border-radius: 50%;
+    background-color: var(--fu-accent-strong);
+    background-image: linear-gradient(
+        135deg,
+        var(--fu-accent) 0%,
+        var(--fu-accent-strong) 100%
+    );
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15.5' fill='white' fill-opacity='.12'/%3E%3Ccircle cx='16' cy='16' r='15.5' fill='none' stroke='white' stroke-opacity='.25' stroke-width='1'/%3E%3Cg transform='translate(1.8 1.2) scale(1.15)'%3E%3Cpath d='M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z' fill='none' stroke='white' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15.5' fill='white' fill-opacity='.12'/%3E%3Ccircle cx='16' cy='16' r='15.5' fill='none' stroke='white' stroke-opacity='.25' stroke-width='1'/%3E%3Cg transform='translate(1.8 1.2) scale(1.15)'%3E%3Cpath d='M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z' fill='none' stroke='white' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    transition:
+        transform 220ms ease,
+        background-color 200ms ease;
+}
+
+.fi-fo-file-upload .filepond--root:hover .filepond--drop-label label::before,
+.fi-fo-file-upload
+    .filepond--root[data-hopper-state="drag-over"]
+    .filepond--drop-label
+    label::before {
+    transform: translateY(-3px) scale(1.06);
+}
+
+/* Browse action within the drop-zone label. */
+.fi-fo-file-upload .filepond--label-action {
+    color: var(--fu-accent-strong);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: color-mix(
+        in srgb,
+        var(--fu-accent-strong) 35%,
+        transparent
+    );
+    text-underline-offset: 3px;
+    transition: text-decoration-color 150ms ease;
+}
+
+.fi-fo-file-upload .filepond--label-action:hover {
+    text-decoration-color: var(--fu-accent-strong);
+}
+
+/* ---------- Preview cards ---------- */
+.fi-fo-file-upload .filepond--item {
+    overflow: hidden;
+    background: var(--fu-surface);
+    box-shadow:
+        0 0 0 1px var(--fu-border),
+        var(--ui-shadow-card);
+    transition: box-shadow 200ms ease;
+}
+
+.fi-fo-file-upload .filepond--item:hover {
+    box-shadow:
+        0 0 0 1px var(--fu-accent),
+        var(--ui-shadow-card);
+}
+
+.fi-fo-file-upload .filepond--item-panel {
+    background: var(--fu-surface);
+}
+
+.fi-fo-file-upload .filepond--file {
+    color: var(--fu-text);
+}
+
+/* Uploaded state: neutral surface instead of FilePond's default green. */
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state="processing-complete"]
+    .filepond--item-panel,
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state="idle"]
+    .filepond--item-panel,
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state="load-complete"]
+    .filepond--item-panel {
+    background-color: var(--fu-surface);
+}
+
+/* Image uploads keep Filament's native preview layout. */
+.fi-fo-file-upload
+    .filepond--item:has(.filepond--image-preview)
+    .filepond--file-info {
+    display: none;
+}
+
+/* Image preview */
+.fi-fo-file-upload .filepond--image-preview {
+    background: transparent;
+}
+
+.fi-fo-file-upload .filepond--image-clip {
+    width: 100%;
+}
+
+.fi-fo-file-upload .filepond--image-clip img,
+.fi-fo-file-upload .filepond--image-clip canvas {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ---------- Friendly file details ---------- */
+.fi-fo-file-upload .filepond--file-info {
+    display: block;
+    min-width: 0;
+    max-width: calc(100% - 3.5rem);
+    color: var(--fu-text);
+}
+
+.fi-fo-file-upload .filepond--file-info-main {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.fi-fo-file-upload .filepond--file-status-sub {
+    margin-inline-start: 0.5rem;
+    color: var(--fu-text-muted);
+}
+
+/* Hide success text while preserving validation and upload errors. */
+.fi-fo-file-upload .filepond--file-status {
+    display: none;
+    color: var(--fu-text-muted);
+}
+
+/* ---------- Import upload preview ---------- */
+.import-products-upload
+    .filepond--root:has(.filepond--item)
+    .filepond--panel-root {
+    min-height: auto;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.import-products-upload
+    .filepond--root:has(.filepond--item)
+    .filepond--drop-label {
+    display: none;
+}
+
+.import-products-upload .filepond--root:has(.filepond--item) {
+    min-height: 3.75rem;
+}
+
+.import-products-upload .filepond--root {
+    min-height: 4.5rem;
+}
+
+.import-products-upload .filepond--drop-label {
+    min-height: 4.25rem;
+}
+
+.import-products-upload .filepond--drop-label label {
+    gap: 0.375rem;
+    padding: 0.75rem 1rem;
+}
+
+/* Compact inline icon for the import drop zone. */
+.import-products-upload .filepond--drop-label label::before {
+    flex: 0 0 2rem;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+}
+
+.import-products-upload .filepond--item {
+    margin: 0;
+    overflow: visible;
+    border: 1px solid var(--fu-border);
+    border-radius: var(--ui-radius-control);
+    background: var(--fu-surface);
+    box-shadow: none;
+}
+
+.import-products-upload .filepond--file {
+    padding: 0;
+}
+
+.import-products-upload .filepond--item[data-filepond-item-state] .filepond--item-panel {
+    background: transparent;
+}
+
+.import-products-upload .filepond--file-info {
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    gap: 0.125rem 0.75rem;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 2.75rem 0.5rem 0.5rem;
+    background: transparent;
+    border: 0;
+}
+
+.import-products-upload .filepond--file-info::before {
+    content: "";
+    grid-row: 1 / span 2;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.375rem;
+    background: #ecfdf5
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='12' y='4' width='18' height='24' rx='2' fill='%2321a366'/%3E%3Cpath d='M12 10h18M12 16h18M12 22h18M21 4v24' stroke='white' stroke-opacity='.55'/%3E%3Crect x='2' y='8' width='18' height='16' rx='2' fill='%23107c41'/%3E%3Cpath d='M7.5 12.5l7 7m0-7l-7 7' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E")
+        center / 1.2rem no-repeat;
+    border: 1px solid #bbf7d0;
+}
+
+.import-products-upload .filepond--file-info-main,
+.import-products-upload .filepond--file-name {
+    grid-column: 2;
+    min-width: 0;
+    overflow: hidden;
+    color: var(--fu-text);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.import-products-upload .filepond--file-info-sub,
+.import-products-upload .filepond--file-size {
+    grid-column: 2;
+    color: var(--fu-text-muted);
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.import-products-upload
+    .filepond--file-action-button.filepond--action-remove-item {
+    position: absolute;
+    top: 50%;
+    right: 0.875rem;
+    margin: 0;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--fu-zone);
+    color: var(--fu-text-muted);
+    border: 1px solid var(--fu-border);
+    border-radius: var(--ui-radius-control);
+    box-shadow: none;
+}
+
+.import-products-upload
+    .filepond--file-action-button.filepond--action-remove-item:hover,
+.import-products-upload
+    .filepond--file-action-button.filepond--action-remove-item:focus-visible {
+    background: rgb(220 38 38 / 12%);
+    color: #dc2626;
+    transform: translateY(-50%) scale(1.05);
+}
+
+.import-products-upload .filepond--file-status {
+    display: none;
+}
+
+.import-products-upload
+    .filepond--item[data-filepond-item-state*="error"]
+    .filepond--file-status,
+.import-products-upload
+    .filepond--item[data-filepond-item-state*="invalid"]
+    .filepond--file-status {
+    display: block;
+    color: #dc2626;
+}
+
+/* ---------- Action buttons (remove / edit) ---------- */
+.fi-fo-file-upload .filepond--file-action-button,
+.fi-fo-file-upload .filepond--file-action-button.filepond--action-edit-item {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: rgb(17 24 39 / 62%);
+    color: #fff;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 22%);
+    transition:
+        background-color 150ms ease,
+        transform 150ms ease,
+        box-shadow 150ms ease;
+}
+
+.fi-fo-file-upload .filepond--file-action-button:hover,
+.fi-fo-file-upload .filepond--file-action-button:focus-visible {
+    background-color: rgb(17 24 39 / 92%);
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 45%);
+    transform: scale(1.08);
+}
+
+/* Make destructive file actions visually distinct. */
+.fi-fo-file-upload .filepond--action-remove-item:hover,
+.fi-fo-file-upload .filepond--action-remove-item:focus-visible {
+    background-color: #dc2626;
+}
+
+/* ---------- Progress ---------- */
+.fi-fo-file-upload .filepond--progress-indicator {
+    color: #fff;
+}
+
+.fi-fo-file-upload .filepond--processing-complete-indicator {
+    display: none;
+}
+
+/* ---------- Error / invalid ---------- */
+.fi-fo-file-upload .filepond--item[data-filepond-item-state*="error"],
+.fi-fo-file-upload .filepond--item[data-filepond-item-state*="invalid"] {
+    box-shadow:
+        0 0 0 1px #f87171,
+        0 0 0 4px rgb(248 113 113 / 18%);
+}
+
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="error"]
+    .filepond--item-panel,
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="invalid"]
+    .filepond--item-panel {
+    background-color: #fef2f2;
+}
+
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="error"]
+    .filepond--file,
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="invalid"]
+    .filepond--file {
+    color: #b91c1c;
+}
+
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="error"]
+    .filepond--file-status,
+.fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="invalid"]
+    .filepond--file-status {
+    display: block;
+    color: #dc2626;
+}
+
+.dark
+    .fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="error"]
+    .filepond--item-panel,
+.dark
+    .fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="invalid"]
+    .filepond--item-panel {
+    background-color: rgb(220 38 38 / 15%);
+}
+
+.dark
+    .fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="error"]
+    .filepond--file,
+.dark
+    .fi-fo-file-upload
+    .filepond--item[data-filepond-item-state*="invalid"]
+    .filepond--file {
+    color: #fca5a5;
+}
+
+/* ---------- Image upload (product image, gallery, etc.) ---------- */
+.fi-fo-file-upload .filepond--image-preview-wrapper {
+    border-radius: inherit;
+}
+
+/* Neutral stage behind the image; no dark gradient bands. */
+.fi-fo-file-upload .filepond--image-preview-wrapper::after {
+    display: none;
+}
+
+.product-image-upload .filepond--root {
+    overflow: hidden;
+    border: 1px solid var(--fu-border);
+    border-radius: var(--ui-radius-card);
+    background-color: var(--fu-surface);
+    box-shadow: var(--ui-shadow-xs);
+}
+
+.product-image-upload .filepond--root:focus-within {
+    border-color: var(--fu-accent);
+    box-shadow: 0 0 0 3px var(--fu-glow);
+}
+
+.product-image-upload .filepond--item {
+    box-shadow: none;
+}
+
+.product-image-upload .filepond--item:hover {
+    box-shadow: none;
+}
+
+.product-image-upload .filepond--item[data-filepond-item-state] .filepond--item-panel {
+    background-color: var(--fu-zone);
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        var(--fu-border-dashed) 1px,
+        transparent 0
+    );
+    background-size: 14px 14px;
+}
+
+.product-image-upload .filepond--image-clip img,
+.product-image-upload .filepond--image-clip canvas {
+    object-fit: contain;
+}
+
+.product-image-upload .filepond--image-preview {
+    background: transparent;
+}
+
+/* Remove / edit buttons: light round chips instead of dark blur. */
+.product-image-upload .filepond--file-action-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--fu-surface);
+    color: var(--fu-text-muted);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow:
+        0 0 0 1px var(--fu-border),
+        var(--ui-shadow-card);
+}
+
+.product-image-upload .filepond--file-action-button:hover,
+.product-image-upload .filepond--file-action-button:focus-visible {
+    background-color: var(--fu-surface);
+    color: var(--fu-text);
+    box-shadow:
+        0 0 0 1px var(--fu-accent),
+        var(--ui-shadow-card);
+}
+
+.product-image-upload .filepond--action-remove-item:hover,
+.product-image-upload .filepond--action-remove-item:focus-visible {
+    background-color: #fef2f2;
+    color: #dc2626;
+    box-shadow:
+        0 0 0 1px #fca5a5,
+        var(--ui-shadow-card);
+}
+
+/* ---------- Logo upload ---------- */
+.logo-upload .filepond--image-preview-wrapper::after {
+    display: none;
+}
+
+.logo-upload .filepond--root {
+    overflow: hidden;
+    border: 1px solid var(--fu-border);
+    border-radius: var(--ui-radius-control);
+    background-color: var(--fu-surface);
+}
+
+.logo-upload .filepond--root:focus-within {
+    border-color: var(--fu-accent);
+    box-shadow: 0 0 0 3px var(--fu-glow);
+}
+
+.logo-upload .filepond--image-clip img,
+.logo-upload .filepond--image-clip canvas {
+    object-fit: contain;
+}
+
+.logo-upload .filepond--item[data-filepond-item-state] .filepond--item-panel {
+    background-color: #f9fafb;
+    background-image:
+        linear-gradient(
+            45deg,
+            #eceef1 25%,
+            transparent 25%,
+            transparent 75%,
+            #eceef1 75%
+        ),
+        linear-gradient(
+            45deg,
+            #eceef1 25%,
+            transparent 25%,
+            transparent 75%,
+            #eceef1 75%
+        );
+    background-size: 16px 16px;
+    background-position:
+        0 0,
+        8px 8px;
+}
+
+.logo-upload.logo-upload-dark .filepond--item[data-filepond-item-state] .filepond--item-panel {
+    background-color: #111827;
+    background-image: none;
+}
+
+/* ---------- Profile avatar upload ---------- */
+.profile-avatar-upload .filepond--root,
+.profile-avatar-upload .filepond--panel-root,
+.profile-avatar-upload .filepond--image-preview-wrapper,
+.profile-avatar-upload .filepond--image-preview {
+    overflow: hidden;
+    border-radius: 9999px;
+}
+
+.profile-avatar-upload .filepond--root {
+    margin-inline: auto;
+    border: 1px solid var(--fu-border);
+}
+
+.profile-avatar-upload .filepond--drop-label {
+    justify-content: center;
+    padding: 0.65rem;
+    color: var(--fu-text-muted);
+    font-size: 0.75rem;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.profile-avatar-upload .filepond--label-action {
+    color: var(--fu-accent);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ================================================================
+   MOTION PREFERENCES AND RESPONSIVE ADJUSTMENTS
+================================================================ */
+@media (prefers-reduced-motion: reduce) {
+    .fi-fo-file-upload *,
+    .fi-fo-file-upload *::before,
+    .fi-fo-file-upload *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .fi-page {
+        gap: 1rem;
+    }
+
+    .fi-sidebar-item-btn {
+        @apply mx-1 px-3;
+    }
+
+    .fi-fo-file-upload .filepond--drop-label {
+        min-height: 6rem;
+    }
+
+    .fi-fo-file-upload .filepond--file-action-button {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+/* ================================================================
+   DASHBOARD DATE PICKER (FLATPICKR)
+================================================================ */
+.flatpickr-calendar .flatpickr-months {
+    padding: 8px 12px;
+}
+
+/* Month selector */
+.flatpickr-calendar .flatpickr-monthDropdown-months {
+    appearance: none !important;
+    border: none !important;
+    background: transparent !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #18181b !important;
+    cursor: pointer;
+}
+
+/* Year input */
+.flatpickr-calendar .numInputWrapper {
+    border: none !important;
+    background: transparent !important;
+}
+
+.flatpickr-calendar .cur-year {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #18181b !important;
+}
+
+/* Hover effect */
+.flatpickr-calendar .flatpickr-monthDropdown-months:hover,
+.flatpickr-calendar .numInputWrapper:hover {
+    background: #f4f4f5 !important;
+    border-radius: 6px;
+}
+
+/* Dark mode */
+.dark .flatpickr-calendar .flatpickr-monthDropdown-months,
+.dark .flatpickr-calendar .cur-year {
+    color: #f4f4f5 !important;
+}
+
+/* ================================================================
+   ORDER SUMMARY & SUBTOTAL STYLES
+================================================================ */
+.order-summary {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(128, 128, 128, 0.18);
+    font-variant-numeric: tabular-nums;
+}
+
+.order-summary .item-label {
+    font-size: 12px;
+    opacity: 0.55;
+    letter-spacing: 0.01em;
+}
+
+.order-summary .details {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.order-summary .details .label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.55;
+}
+
+.order-summary .details .value {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}

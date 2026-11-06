@@ -1,0 +1,49 @@
+[    2543ms] [LOG] Browser detection: {name: Chrome, version: 156, min: 93} @ https://chat.qwen.ai/authorize?user_code=S93IB2GB&client=qwen-code:51
+[    2544ms] [LOG] Modern features support: true @ https://chat.qwen.ai/authorize?user_code=S93IB2GB&client=qwen-code:51
+[    7092ms] [LOG] Fri Nov 06 2026 13:37:25 GMT+0530 (India Standard Time) @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
+[   15381ms] [LOG] %c [APLUS] -- APLUS INIT SUCCESS background:#3B82FE; padding: 4px; padding-right: 8px; border-radius: 4px; color: #fff; @ :1
+[   23957ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i3/O1CN01TMiIsb1Z0Vd0aT37z_!!6000000003132-54-tps-72-72.apng:0
+[   24192ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i3/O1CN01GAh71D1DtXfjPMwPG_!!6000000000274-2-tps-1180-980.png:0
+[   26475ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i1/O1CN01eom36v2ABAX19XOVL_!!6000000008164-2-tps-800-800.png:0
+[   26476ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i2/O1CN01ZI5cJb1Dd3JZvbHOf_!!6000000000238-2-tps-800-800.png:0
+[   27613ms] [LOG] Fri Nov 06 2026 13:37:46 GMT+0530 (India Standard Time) @ https://g.alicdn.com/AWSC/et/1.83.41/et_f.js:1
+[   28237ms] [INFO] [adjust-sdk] 2026-11-06T08:07:46.786Z INFO:  Log level set to error @ https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.3.36/js/adjust-latest-BU5lCe19.js:0
+[   41051ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_GB.bNheh6UANR0.es5.O/am=D_wgBAAAAABHeBIAABIA9DcAgADBGnCvBTABQgYAAAAAAAAAALgIAEAWAQQ/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlG-KzB9kWRoPU5FyByeH8xMGWLxBg/dti=1/m=_b,_tp:610
+[   41051ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you don't understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_GB.bNheh6UANR0.es5.O/am=D_wgBAAAAABHeBIAABIA9DcAgADBGnCvBTABQgYAAAAAAAAAALgIAEAWAQQ/d=1/excm=_b,_tp,accountchooserview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlG-KzB9kWRoPU5FyByeH8xMGWLxBg/dti=1/m=_b,_tp:610
+[   41683ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ :0
+[   41809ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ :0
+[   46359ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.OAuthUi.en_GB.u3OfdlHnB9Q.es5.O/am=cUgAAAAAABAA_A0gWANfAyhAAAAAAAAAAADgAABgEQ/d=1/excm=_b,_tp,attributesview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlH4HvnW_91mkut09uXj3cdt7b4N4A/dti=1/m=_b,_tp:588
+[   46359ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you don't understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.OAuthUi.en_GB.u3OfdlHnB9Q.es5.O/am=cUgAAAAAABAA_A0gWANfAyhAAAAAAAAAAADgAABgEQ/d=1/excm=_b,_tp,attributesview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlH4HvnW_91mkut09uXj3cdt7b4N4A/dti=1/m=_b,_tp:588
+[   49411ms] [LOG] Browser detection: {name: Chrome, version: 156, min: 93} @ https://chat.qwen.ai/auth:51
+[   49412ms] [LOG] Modern features support: true @ https://chat.qwen.ai/auth:51
+[   49812ms] [LOG] Fri Nov 06 2026 13:38:08 GMT+0530 (India Standard Time) @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
+[   49980ms] [LOG] %c [APLUS] -- APLUS INIT SUCCESS background:#3B82FE; padding: 4px; padding-right: 8px; border-radius: 4px; color: #fff; @ :1
+[   52028ms] [INFO] [adjust-sdk] 2026-11-06T08:08:10.576Z INFO:  Log level set to error @ https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.3.36/js/adjust-latest-BU5lCe19.js:0
+[   52821ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-64K8VGJ460:857
+[   52821ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-64K8VGJ460:857
+[   53231ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://dw-data-channel-sg.ucweb.com/api/v1/web/report?type=acs&app=11&_ts=1793952491751&_nonce=605756319&_sign=272443c4fa3336d7c94f4a3e508a1a33bade5ba7c06946e117ffe88050245222:0
+[   55394ms] [LOG] Fri Nov 06 2026 13:38:13 GMT+0530 (India Standard Time) @ https://assets.alicdn.com/g/AWSC/et/1.83.41/et_f.js:1
+[   60361ms] [COUNT] %c%d: 1 @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60362ms] [DIR] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60362ms] [DIRXML] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60363ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60363ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60363ms] [LOG] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60363ms] [TABLE] %c%d font-size:0;color:transparent Error @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   60363ms] [INFO] %c%d font-size:0;color:transparent NaN @ https://g.alicdn.com/captcha-frontend/FeiLin/1.5.4/feilin069.57fbf02434971a0fc579b6ae076f3f1bb4055ee4caca259f5388e571157b3f39.js:0
+[   70784ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i3/O1CN01TMiIsb1Z0Vd0aT37z_!!6000000003132-54-tps-72-72.apng:0
+[   70816ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i3/O1CN01GAh71D1DtXfjPMwPG_!!6000000000274-2-tps-1180-980.png:0
+[   70882ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i1/O1CN01eom36v2ABAX19XOVL_!!6000000008164-2-tps-800-800.png:0
+[   70887ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ https://img.alicdn.com/imgextra/i2/O1CN01ZI5cJb1Dd3JZvbHOf_!!6000000000238-2-tps-800-800.png:0
+[   73553ms] [ERROR] Refused to get unsafe header "acw-sc--v3" @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
+[   73553ms] [ERROR] Refused to get unsafe header "acw-sc--v3" @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
+[   73991ms] [LOG] Browser detection: {name: Chrome, version: 156, min: 93} @ https://chat.qwen.ai/authorize?user_code=S93IB2GB&client=qwen-code:51
+[   73991ms] [LOG] Modern features support: true @ https://chat.qwen.ai/authorize?user_code=S93IB2GB&client=qwen-code:51
+[   74065ms] [LOG] %c [APLUS] -- APLUS INIT SUCCESS background:#3B82FE; padding: 4px; padding-right: 8px; border-radius: 4px; color: #fff; @ :1
+[   74114ms] [LOG] Fri Nov 06 2026 13:38:32 GMT+0530 (India Standard Time) @ https://o.alicdn.com/frontend-lib/common-lib/jquery.min.js:0
+[   75063ms] [INFO] [adjust-sdk] 2026-11-06T08:08:33.612Z INFO:  Log level set to error @ https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.3.36/js/adjust-latest-BU5lCe19.js:0
+[   75253ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-64K8VGJ460:857
+[   75253ms] [ERROR] Cross-Origin-Opener-Policy policy would block the window.postMessage call. @ https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-64K8VGJ460:857
+[   78189ms] [LOG] Fri Nov 06 2026 13:38:36 GMT+0530 (India Standard Time) @ https://assets.alicdn.com/g/AWSC/et/1.83.41/et_f.js:1

@@ -1,0 +1,1524 @@
+[  566921ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/build/assets/theme-Byfb0k8f.css:0
+[  566927ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/logo-light.svg:0
+[  566935ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/fonts/filament/filament/inter/index.css?v=5.11.0.0:0
+[  566997ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/logo-dark.svg:0
+[  567059ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/actions/actions.js?v=5.11.0.0:0
+[  567077ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/notifications/notifications.js?v=5.11.0.0:0
+[  567077ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/schemas/schemas.js?v=5.11.0.0:0
+[  567083ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/tables/tables.js?v=5.11.0.0:0
+[  567083ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/support/support.js?v=5.11.0.0:0
+[  567093ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/filament/echo.js?v=5.11.0.0:0
+[  567094ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/logo-light.svg:0
+[  567110ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/js/filament/filament/app.js?v=5.11.0.0:0
+[  567249ms] [WARNING] Livewire Expression Error: setUpFilamentBroadcastNotifications is not defined
+
+Expression: "(()=>{ setUpFilamentBroadcastNotifications({
+                    $wire,
+                    broadcastChannel: 'App.Models.User.1',
+                    event: '.Illuminate\\Notifications\\Events\\BroadcastNotificationCreated',
+                    onNotification: (notification) =>
+                        $wire.handleBroadcastNotification(notification),
+                }) })()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:7176
+[  567257ms] [ERROR] ReferenceError: setUpFilamentBroadcastNotifications is not defined
+    at eval (eval at normalRawEvaluator (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1613:18), <anonymous>:3:38)
+    at Proxy.eval (eval at normalRawEvaluator (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1613:18), <anonymous>:9:22)
+    at normalRawEvaluator (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1617:25)
+    at Object.evaluateRaw (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1593:12)
+    at evaluateExpression (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:7144:35)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:15776:13
+    at Object.dontAutoEvaluateFunctions (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1492:18)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:15775:26
+    at onlyIfScriptHasntBeenRunAlreadyForThisComponent (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:15794:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:15772:9 @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:7179
+[  567260ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpenMobile')
+
+Expression: "$store.sidebar.isOpenMobile"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567260ms] [WARNING] Alpine Expression Error: filamentSidebarBackground is not defined
+
+Expression: "filamentSidebarBackground"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567261ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpenMobile')
+
+Expression: "$store.sidebar.isOpenMobile && ! hasOpenModal"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567261ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567261ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "! $store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567262ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567262ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567262ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen || true"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567262ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567262ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "! $store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567263ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567263ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567263ms] [WARNING] Alpine Expression Error: filamentGlobalSearch is not defined
+
+Expression: "filamentGlobalSearch({
+                    loadingMessage: 'Searching...',
+                    failureMessage: 'Search has not completed. Reload the page to try again.',
+                })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567263ms] [WARNING] Alpine Expression Error: isOpen is not defined
+
+Expression: "! isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567263ms] [WARNING] Alpine Expression Error: isOpen is not defined
+
+Expression: "! isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567264ms] [WARNING] Alpine Expression Error: isOpen is not defined
+
+Expression: "isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567264ms] [WARNING] Alpine Expression Error: filamentDropdown is not defined
+
+Expression: "filamentDropdown({ isMenu: true })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567264ms] [WARNING] Alpine Expression Error: filamentActionModals is not defined
+
+Expression: "filamentActionModals({
+                    livewireId: 'Ak3yIBPdxDUld9GMFqsm',
+                })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567264ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567265ms] [WARNING] Alpine Expression Error: filamentSidebar is not defined
+
+Expression: "filamentSidebar({
+            hasTopNavigation: false,
+            isSidebarCollapsibleOnDesktop: true,
+            isSidebarFullyCollapsibleOnDesktop: false,
+        })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567265ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "{ 'fi-sidebar-open': $store.sidebar.isOpen }"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567265ms] [WARNING] Alpine Expression Error: isHidden is not defined
+
+Expression: "isHidden"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567265ms] [WARNING] Alpine Expression Error: focusInitialNavigation is not defined
+
+Expression: "focusInitialNavigation()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567265ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567265ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'groupIsCollapsed')
+
+Expression: "{ 'fi-collapsed': $store.sidebar.groupIsCollapsed(label) }"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Dashboard'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Products'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Categories'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Orders'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Users'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567266ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Roles'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Email Templates'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: filamentSidebarTooltip is not defined
+
+Expression: "filamentSidebarTooltip"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen ? null : 'Settings'"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "$store.sidebar.isOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: filamentActionModals is not defined
+
+Expression: "filamentActionModals({
+                    livewireId: 'B23xL3U8osRsbKWlMA6B',
+                })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: filamentSidebarBackground is not defined
+
+Expression: "filamentSidebarBackground"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpenMobile')
+
+Expression: "$store.sidebar.isOpenMobile && ! hasOpenModal"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: Cannot read properties of undefined (reading 'isOpen')
+
+Expression: "{
+                    'fi-main-ctn-sidebar-open': $store.sidebar.isOpen,
+                }"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: filamentSchema is not defined
+
+Expression: "filamentSchema({ livewireId: 'QMWrWtor04WcGJwfgmrB', schemaKey: 'content' })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567267ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:null,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567268ms] [WARNING] Alpine Expression Error: filamentSchema is not defined
+
+Expression: "filamentSchema({ livewireId: 'QMWrWtor04WcGJwfgmrB', schemaKey: 'filtersForm' })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567268ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022filtersForm.dashboard-filters::filters::section\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters\u0022,\u0022containerPath\u0022:\u0022filters\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567268ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022filtersForm.startDate\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters.startDate\u0022,\u0022containerPath\u0022:\u0022filters\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567268ms] [WARNING] Alpine Expression Error: dateTimePickerFormComponent is not defined
+
+Expression: "dateTimePickerFormComponent({
+                                    defaultFocusedDate: null,
+                                    displayFormat: 'DD MMM YYYY',
+                                    firstDayOfWeek: 1,
+                                    hasDate: true,
+                                    isAutofocused: false,
+                                    locale: 'en',
+                                    shouldCloseOnDateSelection: false,
+                                    state: $wire.$entangle('filters.startDate', true),
+                                })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567269ms] [WARNING] Alpine Expression Error: isPanelOpen is not defined
+
+Expression: "isPanelOpen.toString()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567269ms] [WARNING] Alpine Expression Error: displayText is not defined
+
+Expression: "displayText"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: isPanelOpen is not defined
+
+Expression: "isPanelOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: focusedMonth is not defined
+
+Expression: "focusedMonth"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: months is not defined
+
+Expression: "months"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: focusedYear is not defined
+
+Expression: "focusedYear"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: getCalendarLabel is not defined
+
+Expression: "getCalendarLabel()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: getCalendarLabel is not defined
+
+Expression: "getCalendarLabel()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: dayLabels is not defined
+
+Expression: "dayLabels"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: weeksInFocusedMonth is not defined
+
+Expression: "weeksInFocusedMonth"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022filtersForm.endDate\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters.endDate\u0022,\u0022containerPath\u0022:\u0022filters\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: dateTimePickerFormComponent is not defined
+
+Expression: "dateTimePickerFormComponent({
+                                    defaultFocusedDate: null,
+                                    displayFormat: 'DD MMM YYYY',
+                                    firstDayOfWeek: 1,
+                                    hasDate: true,
+                                    isAutofocused: false,
+                                    locale: 'en',
+                                    shouldCloseOnDateSelection: false,
+                                    state: $wire.$entangle('filters.endDate', true),
+                                })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: isPanelOpen is not defined
+
+Expression: "isPanelOpen.toString()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567270ms] [WARNING] Alpine Expression Error: displayText is not defined
+
+Expression: "displayText"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567271ms] [WARNING] Alpine Expression Error: isPanelOpen is not defined
+
+Expression: "isPanelOpen"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567271ms] [WARNING] Alpine Expression Error: focusedMonth is not defined
+
+Expression: "focusedMonth"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567271ms] [WARNING] Alpine Expression Error: months is not defined
+
+Expression: "months"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: focusedYear is not defined
+
+Expression: "focusedYear"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: getCalendarLabel is not defined
+
+Expression: "getCalendarLabel()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: getCalendarLabel is not defined
+
+Expression: "getCalendarLabel()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: dayLabels is not defined
+
+Expression: "dayLabels"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: weeksInFocusedMonth is not defined
+
+Expression: "weeksInFocusedMonth"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:null,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters\u0022,\u0022containerPath\u0022:\u0022filters\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:null,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022content.App\\\\Filament\\\\Widgets\\\\StatsOverview-0\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022content.App\\\\Filament\\\\Resources\\\\Products\\\\Widgets\\\\ProductsChart-1\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567272ms] [WARNING] Alpine Expression Error: filamentSchemaComponent is not defined
+
+Expression: "filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022content.App\\\\Filament\\\\Widgets\\\\ProductsStatusPieChart-2\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}'))"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567273ms] [WARNING] Alpine Expression Error: filamentActionModals is not defined
+
+Expression: "filamentActionModals({
+                    livewireId: 'QMWrWtor04WcGJwfgmrB',
+                })"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567273ms] [WARNING] Alpine Expression Error: notificationsComponent is not defined
+
+Expression: "notificationsComponent()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567299ms] [WARNING] Alpine Expression Error: navigationCompleted is not defined
+
+Expression: "navigationCompleted()"
+
+ JSHandle@node @ http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1480
+[  567328ms] TypeError: Cannot read properties of undefined (reading 'isOpenMobile')
+    at [Alpine] $store.sidebar.isOpenMobile (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567328ms] ReferenceError: filamentSidebarBackground is not defined
+    at [Alpine] filamentSidebarBackground (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567328ms] TypeError: Cannot read properties of undefined (reading 'isOpenMobile')
+    at [Alpine] $store.sidebar.isOpenMobile && ! hasOpenModal (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567328ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567328ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] ! $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:49)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567328ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567329ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567331ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen || true (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567336ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567336ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] ! $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:49)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567336ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567336ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567336ms] ReferenceError: filamentGlobalSearch is not defined
+    at [Alpine] filamentGlobalSearch({
+                    loadingMessage: 'Searching...',
+                    failureMessage: 'Search has not completed. Reload the page to try again.',
+                }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567336ms] ReferenceError: isOpen is not defined
+    at [Alpine] ! isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:34)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567336ms] ReferenceError: isOpen is not defined
+    at [Alpine] ! isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:34)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567336ms] ReferenceError: isOpen is not defined
+    at [Alpine] isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567336ms] ReferenceError: filamentDropdown is not defined
+    at [Alpine] filamentDropdown({ isMenu: true }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567336ms] ReferenceError: filamentActionModals is not defined
+    at [Alpine] filamentActionModals({
+                    livewireId: 'Ak3yIBPdxDUld9GMFqsm',
+                }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567336ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567336ms] ReferenceError: filamentSidebar is not defined
+    at [Alpine] filamentSidebar({
+            hasTopNavigation: false,
+            isSidebarCollapsibleOnDesktop: true,
+            isSidebarFullyCollapsibleOnDesktop: false,
+        }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567336ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] { 'fi-sidebar-open': $store.sidebar.isOpen } (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:68)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567336ms] ReferenceError: isHidden is not defined
+    at [Alpine] isHidden (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567337ms] ReferenceError: focusInitialNavigation is not defined
+    at [Alpine] focusInitialNavigation() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4310:5
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1807:58)
+[  567337ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567337ms] TypeError: Cannot read properties of undefined (reading 'groupIsCollapsed')
+    at [Alpine] { 'fi-collapsed': $store.sidebar.groupIsCollapsed(label) } (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:65)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567337ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567338ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Dashboard' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567338ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567338ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567340ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Products' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567342ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567343ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567343ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Categories' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567343ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567344ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567344ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Orders' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567345ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567345ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567345ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Users' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567346ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567347ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567347ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Roles' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567352ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567352ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567352ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Email Templates' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567352ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567353ms] ReferenceError: filamentSidebarTooltip is not defined
+    at [Alpine] filamentSidebarTooltip (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567353ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen ? null : 'Settings' (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567355ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] $store.sidebar.isOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567356ms] ReferenceError: filamentActionModals is not defined
+    at [Alpine] filamentActionModals({
+                    livewireId: 'B23xL3U8osRsbKWlMA6B',
+                }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567356ms] ReferenceError: filamentSidebarBackground is not defined
+    at [Alpine] filamentSidebarBackground (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567356ms] TypeError: Cannot read properties of undefined (reading 'isOpenMobile')
+    at [Alpine] $store.sidebar.isOpenMobile && ! hasOpenModal (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:47)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567357ms] TypeError: Cannot read properties of undefined (reading 'isOpen')
+    at [Alpine] {
+                    'fi-main-ctn-sidebar-open': $store.sidebar.isOpen,
+                } (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:4:64)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567359ms] ReferenceError: filamentSchema is not defined
+    at [Alpine] filamentSchema({ livewireId: 'QMWrWtor04WcGJwfgmrB', schemaKey: 'content' }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567360ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:null,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567361ms] ReferenceError: filamentSchema is not defined
+    at [Alpine] filamentSchema({ livewireId: 'QMWrWtor04WcGJwfgmrB', schemaKey: 'filtersForm' }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567361ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022filtersForm.dashboard-filters::filters::section\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters\u0022,\u0022containerPath\u0022:\u0022filters\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567361ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022filtersForm.startDate\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters.startDate\u0022,\u0022containerPath\u0022:\u0022filters\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567361ms] ReferenceError: dateTimePickerFormComponent is not defined
+    at [Alpine] dateTimePickerFormComponent({
+                                    defaultFocusedDate: null,
+                                    displayFormat: 'DD MMM YYYY',
+                                    firstDayOfWeek: 1,
+                                    hasDate: true,
+                                    isAutofocused: false,
+                                    locale: 'en',
+                                    shouldCloseOnDateSelection: false,
+                                    state: $wire.$entangle('filters.startDate', true),
+                                }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567362ms] ReferenceError: isPanelOpen is not defined
+    at [Alpine] isPanelOpen.toString() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567363ms] ReferenceError: displayText is not defined
+    at [Alpine] displayText (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at getValue (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4525:7)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4643:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567363ms] ReferenceError: isPanelOpen is not defined
+    at [Alpine] isPanelOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567365ms] ReferenceError: focusedMonth is not defined
+    at [Alpine] focusedMonth (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at getValue (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4525:7)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4643:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567366ms] ReferenceError: months is not defined
+    at [Alpine] months (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at loop (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4947:5)
+    at effect3.priority [as fn] (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4927:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567366ms] ReferenceError: focusedYear is not defined
+    at [Alpine] focusedYear (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at getValue (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4525:7)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4643:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567368ms] ReferenceError: getCalendarLabel is not defined
+    at [Alpine] getCalendarLabel() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4733:7)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4732:5)
+[  567368ms] ReferenceError: getCalendarLabel is not defined
+    at [Alpine] getCalendarLabel() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567369ms] ReferenceError: dayLabels is not defined
+    at [Alpine] dayLabels (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at loop (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4947:5)
+    at effect3.priority [as fn] (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4927:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567371ms] ReferenceError: weeksInFocusedMonth is not defined
+    at [Alpine] weeksInFocusedMonth (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at loop (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4947:5)
+    at effect3.priority [as fn] (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4927:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567371ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022filtersForm.endDate\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters.endDate\u0022,\u0022containerPath\u0022:\u0022filters\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567371ms] ReferenceError: dateTimePickerFormComponent is not defined
+    at [Alpine] dateTimePickerFormComponent({
+                                    defaultFocusedDate: null,
+                                    displayFormat: 'DD MMM YYYY',
+                                    firstDayOfWeek: 1,
+                                    hasDate: true,
+                                    isAutofocused: false,
+                                    locale: 'en',
+                                    shouldCloseOnDateSelection: false,
+                                    state: $wire.$entangle('filters.endDate', true),
+                                }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567373ms] ReferenceError: isPanelOpen is not defined
+    at [Alpine] isPanelOpen.toString() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567373ms] ReferenceError: displayText is not defined
+    at [Alpine] displayText (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at getValue (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4525:7)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4643:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567373ms] ReferenceError: isPanelOpen is not defined
+    at [Alpine] isPanelOpen (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4909:5)
+[  567377ms] ReferenceError: focusedMonth is not defined
+    at [Alpine] focusedMonth (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at getValue (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4525:7)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4643:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567377ms] ReferenceError: months is not defined
+    at [Alpine] months (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at loop (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4947:5)
+    at effect3.priority [as fn] (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4927:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567378ms] ReferenceError: focusedYear is not defined
+    at [Alpine] focusedYear (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at getValue (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4525:7)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4643:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567378ms] ReferenceError: getCalendarLabel is not defined
+    at [Alpine] getCalendarLabel() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4733:7)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4732:5)
+[  567378ms] ReferenceError: getCalendarLabel is not defined
+    at [Alpine] getCalendarLabel() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at ReactiveEffect.fn (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+    at handler2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4771:5)
+[  567378ms] ReferenceError: dayLabels is not defined
+    at [Alpine] dayLabels (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at loop (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4947:5)
+    at effect3.priority [as fn] (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4927:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567379ms] ReferenceError: weeksInFocusedMonth is not defined
+    at [Alpine] weeksInFocusedMonth (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:32)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at loop (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4947:5)
+    at effect3.priority [as fn] (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4927:19)
+    at ReactiveEffect.run (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2974:21)
+    at effect2 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:3190:9)
+    at Object.effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5155:16)
+    at effect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1059:35)
+    at wrappedEffect (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1076:29)
+[  567380ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:null,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022filters\u0022,\u0022containerPath\u0022:\u0022filters\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567380ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:null,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567381ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022content.App\\\\Filament\\\\Widgets\\\\StatsOverview-0\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567383ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022content.App\\\\Filament\\\\Resources\\\\Products\\\\Widgets\\\\ProductsChart-1\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567383ms] ReferenceError: filamentSchemaComponent is not defined
+    at [Alpine] filamentSchemaComponent(JSON.parse('{\u0022key\u0022:\u0022content.App\\\\Filament\\\\Widgets\\\\ProductsStatusPieChart-2\u0022,\u0022exposedMethods\u0022:[],\u0022path\u0022:\u0022\u0022,\u0022containerPath\u0022:\u0022\u0022}')) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567383ms] ReferenceError: filamentActionModals is not defined
+    at [Alpine] filamentActionModals({
+                    livewireId: 'QMWrWtor04WcGJwfgmrB',
+                }) (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567384ms] ReferenceError: notificationsComponent is not defined
+    at [Alpine] notificationsComponent() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at evaluate (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1498:34)
+    at Function.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4806:17)
+    at flushHandlers (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1683:48)
+    at stopDeferring (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1688:7)
+    at deferHandlingDirectives (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1691:5)
+    at initTree (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:2035:5)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1981:7
+[  567387ms] ReferenceError: navigationCompleted is not defined
+    at [Alpine] navigationCompleted() (eval at safeAsyncFunction (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1541:21), <anonymous>:3:16)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1566:28
+    at tryCatch (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:1464:14)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:5137:7
+    at handler4 (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:4314:27)
+    at forwardEvent (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:16454:14)
+    at HTMLDocument.<anonymous> (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:16451:56)
+    at fireEventForOtherLibrariesToHookInto (http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:14843:14)
+    at http://localhost:8080/livewire-54bd04cd/livewire.js?id=a964a3c8:14817:7
+[  567616ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://localhost:8080/favicon.ico:0

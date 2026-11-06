@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - link "Skip to content" [ref=e6] [cursor=pointer]:
+        - /url: "#main-content"
+      - button [expanded] [ref=e11]:
+        - generic [aria-hidden]: chevron_left
+      - link "OmniRoute v1.1.0" [ref=e13] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e27]:
+          - heading "OmniRoute" [level=1] [ref=e28]
+          - generic [ref=e29]: v1.1.0
+      - navigation "Main navigation" [ref=e30]:
+        - link "home Home" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e32]: home
+          - generic [ref=e33]: Home
+        - link "api Endpoint" [ref=e34] [cursor=pointer]:
+          - /url: /dashboard/endpoint
+          - generic [ref=e35]: api
+          - generic [ref=e36]: Endpoint
+        - link "dns Providers" [ref=e37] [cursor=pointer]:
+          - /url: /dashboard/providers
+          - generic [ref=e38]: dns
+          - generic [ref=e39]: Providers
+        - link "layers Combos" [ref=e40] [cursor=pointer]:
+          - /url: /dashboard/combos
+          - generic [ref=e41]: layers
+          - generic [ref=e42]: Combos
+        - link "description Logs" [ref=e43] [cursor=pointer]:
+          - /url: /dashboard/logs
+          - generic [ref=e44]: description
+          - generic [ref=e45]: Logs
+        - link "account_balance_wallet Costs" [ref=e46] [cursor=pointer]:
+          - /url: /dashboard/costs
+          - generic [ref=e47]: account_balance_wallet
+          - generic [ref=e48]: Costs
+        - link "analytics Analytics" [ref=e49] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - generic [ref=e50]: analytics
+          - generic [ref=e51]: Analytics
+        - link "tune Limits & Quotas" [ref=e52] [cursor=pointer]:
+          - /url: /dashboard/limits
+          - generic [ref=e53]: tune
+          - generic [ref=e54]: Limits & Quotas
+        - link "health_and_safety Health" [ref=e55] [cursor=pointer]:
+          - /url: /dashboard/health
+          - generic [ref=e56]: health_and_safety
+          - generic [ref=e57]: Health
+        - link "terminal CLI Tools" [ref=e58] [cursor=pointer]:
+          - /url: /dashboard/cli-tools
+          - generic [ref=e59]: terminal
+          - generic [ref=e60]: CLI Tools
+        - generic [ref=e61]:
+          - paragraph [ref=e62]: System
+          - link "settings Settings" [ref=e63] [cursor=pointer]:
+            - /url: /dashboard/settings
+            - generic [ref=e64]: settings
+            - generic [ref=e65]: Settings
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: Help
+          - link "menu_book Docs" [ref=e68] [cursor=pointer]:
+            - /url: /docs
+            - generic [ref=e69]: menu_book
+            - generic [ref=e70]: Docs
+          - link "bug_report Issues" [ref=e71] [cursor=pointer]:
+            - /url: https://github.com/diegosouzapw/OmniRoute/issues
+            - generic [ref=e72]: bug_report
+            - generic [ref=e73]: Issues
+      - generic [ref=e74]:
+        - button "restart_alt Restart" [ref=e75]:
+          - generic: restart_alt
+          - text: Restart
+        - button "power_settings_new Shutdown" [ref=e76]:
+          - generic: power_settings_new
+          - text: Shutdown
+    - main [ref=e77]:
+      - generic [ref=e79]:
+        - button "Switch to dark mode" [ref=e80]:
+          - generic: dark_mode
+        - button "logout" [ref=e81]
+      - generic [ref=e83]:
+        - navigation "Breadcrumb" [ref=e84]:
+          - link "Dashboard" [ref=e86] [cursor=pointer]:
+            - /url: /dashboard
+          - generic [ref=e87]:
+            - generic [aria-hidden] [ref=e88]: ›
+            - generic [ref=e89]: Onboarding
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: "1"
+            - generic [ref=e96]: "2"
+            - generic [ref=e99]: "3"
+            - generic [ref=e102]: "4"
+            - generic [ref=e105]: "5"
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: waving_hand
+              - heading "Welcome" [level=2] [ref=e110]
+            - generic [ref=e112]:
+              - paragraph [ref=e113]:
+                - strong [ref=e114]: OmniRoute
+                - text: is your local AI API proxy. It routes requests to multiple AI providers with load balancing, failover, and usage tracking.
+              - generic [ref=e115]:
+                - generic [ref=e116]:
+                  - generic [ref=e117]: swap_horiz
+                  - text: Multi-Provider
+                - generic [ref=e118]:
+                  - generic [ref=e119]: monitoring
+                  - text: Usage Tracking
+                - generic [ref=e120]:
+                  - generic [ref=e121]: shield
+                  - text: API Key Mgmt
+            - button "Get Started" [ref=e124] [cursor=pointer]
+          - button "Skip wizard entirely" [ref=e126] [cursor=pointer]
+  - alert [ref=e127]
