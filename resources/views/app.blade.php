@@ -31,6 +31,14 @@
         }
     </style>
 
+    <meta name="description" content="{{ config('app.description', config('app.name', 'Laravel')) }}">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ config('app.name', 'Laravel') }}">
+    <meta property="og:description" content="{{ config('app.description', config('app.name', 'Laravel')) }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta name="twitter:card" content="summary">
+    <link rel="canonical" href="{{ url()->current() }}">
     <link rel="icon" href="{{ config('app.favicon', asset('favicon.ico')) }}">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 

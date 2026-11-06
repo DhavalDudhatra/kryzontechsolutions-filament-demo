@@ -10,12 +10,15 @@ enum CustomIcon: string
     public function svg(): string
     {
         static $cache = [];
+
         return $cache[$this->value] ??= $this->read();
     }
 
     private function read(): string
     {
         $path = public_path("icons/{$this->value}.svg");
-        return is_file($path) ? file_get_contents($path) : '';
+        $contents = is_file($path) ? file_get_contents($path) : false;
+
+        return $contents === false ? '' : $contents;
     }
 }

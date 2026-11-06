@@ -45,6 +45,18 @@
     background: var(--fu-glow);
 }
 
+/* Pro ERP type: Inter Variable (Filament default), smooth on screens, tabular numbers in tables/stats. */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.fi-ta-table,
+.fi-wi-stats-overview-stat-value {
+    font-variant-numeric: tabular-nums;
+}
+
 /* ================================================================
    SIDEBAR
 ================================================================ */
