@@ -8,19 +8,18 @@ use Inertia\Response;
 
 class ProductController extends Controller
 {
-    // For User Product Page
     public function index(): Response
     {
         $products = Product::where('is_active', true)
             ->with('category:id,name')
             ->latest()
-            ->paginate(24)
+            ->paginate(24, ['id', 'name', 'price', 'image', 'description', 'category_id'])
             ->through(function (Product $product): array {
                 return [
                     'id' => $product->id,
                     'name' => $product->name,
                     'price' => $product->price,
-                    'description' => html_entity_decode(strip_tags($product->description)),
+                    'description' => $product->description_text,
                     'image' => $product->image
                         ? asset('storage/'.$product->image)
                         : null,

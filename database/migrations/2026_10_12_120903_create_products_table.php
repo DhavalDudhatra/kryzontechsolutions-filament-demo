@@ -19,8 +19,6 @@ return new class extends Migration
                 $table->string('image')->nullable();
                 $table->text('description')->nullable();
                 $table->boolean('is_active')->default(true);
-                $table->unsignedBigInteger('category_id')->nullable();
-                $table->foreign('category_id')->references('id')->on('categories');
                 $table->timestamps();
                 $table->softDeletes();
             });

@@ -22,7 +22,8 @@ return new class extends Migration
 
     public function down(): void
     {
-        // The original products migration also defines this column, so dropping
-        // it here would break databases where that migration created the table.
+        Schema::table('products', function (Blueprint $table): void {
+            $table->dropConstrainedForeignId('category_id');
+        });
     }
 };

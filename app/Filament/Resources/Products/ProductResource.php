@@ -69,7 +69,9 @@ class ProductResource extends Resource
 
     public static function getEloquentQuery(): Builder
     {
+        // Eager load relations used in table to prevent N+1 queries.
         return parent::getEloquentQuery()
-            ->withoutGlobalScopes([SoftDeletingScope::class]);
+            ->withoutGlobalScopes([SoftDeletingScope::class])
+            ->with(['category:id,name', 'createdBy:id,name']);
     }
 }

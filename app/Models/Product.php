@@ -14,6 +14,7 @@ use Illuminate\Support\Str;
  * Product model with image storage, category relation, and soft deletes.
  *
  * @property int|string|null $created_by
+ * @property string $description_text
  */
 class Product extends Model
 {
@@ -46,6 +47,12 @@ class Product extends Model
         );
     }
 
+    /** @return Attribute<string, never> */
+    protected function descriptionText(): Attribute
+    {
+        return Attribute::make(get: fn (): string => html_entity_decode(strip_tags((string) $this->description)));
+    }
+
     /** @return BelongsTo<Category, $this> */
     public function category(): BelongsTo
     {
@@ -73,6 +80,11 @@ class Product extends Model
         }
 
         $path = trim(str_replace('\\', '/', $path), " \t\n\r\0\x0B/");
+
+        // Reject path traversal and absolute paths.
+        if (str_contains($path, '..') || str_contains($path, '://')) {
+            return null;
+        }
 
         // Only strip storage/ prefix (public/ also stripped for consistency)
         if (Str::startsWith($path, 'storage/')) {
